@@ -10,7 +10,7 @@
 
 - [![Maintainer](https://custom-icon-badges.demolab.com/badge/CHART-black.svg?logo=folder&logoColor=folder)](./Chart/)
 
-  - Charts / Visualizations
+  - Charts / Visualizations / Diagrams / ERD / Flowcharts
   <hr/>
 
 - [![Maintainer](https://custom-icon-badges.demolab.com/badge/ILLUSTRATION-black.svg?logo=folder&logoColor=folder)](./Illustration/)
