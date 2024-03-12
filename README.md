@@ -4,10 +4,15 @@
 ![alt text](https://x4w8f4y8.rocketcdn.me/wp-content/uploads/2020/05/iod_h_tp_white_c.png)
 </br>
 
-# CAPSTONE Documentation Archive
+>### Capstone
 
-> This is a documentation archive for the Capstone project. This is a requirement to complete the course.
-> </br>
+# Documentation Archive
+
+<br/>
+
+ This is a documentation archive for the Capstone project. This is a requirement to complete the course.
+ 
+</br>
 
 </br>
 
