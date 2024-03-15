@@ -4,7 +4,7 @@
 </br></br></br>
 [![iod logo](https://x4w8f4y8.rocketcdn.me/wp-content/uploads/2020/05/iod_h_tp_white_c.png)](#)
 </br></br></br>
-![iod_miniproject_2](https://i.ibb.co/b1qCmjB/capstone.png)
+![iod_miniproject_2](https://i.ibb.co/84Dbdx8/iod-gold.png)
 </br></br></br>
 
 </div>
