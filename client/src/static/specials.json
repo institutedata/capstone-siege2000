@@ -1,0 +1,2182 @@
+[
+  {
+    "plu": 19934,
+    "TradeName": "AA N/R Fragrance Sachets Rose",
+    "SpecialPrice Start Date": "07/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 4.99,
+    "Current SOH": 11,
+    "Retail": 7.99
+  },
+  {
+    "plu": 67238,
+    "TradeName": "AA N/R Fragrance Sachets Lavender",
+    "SpecialPrice Start Date": "07/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 4.99,
+    "Current SOH": 9,
+    "Retail": 7.99
+  },
+  {
+    "plu": 2616726,
+    "TradeName": "BLISTEX 5-Way Lip Prot. SPF20 4.25g",
+    "SpecialPrice Start Date": "18/05/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 60,
+    "SpecialPrice": 4.99,
+    "Current SOH": 1,
+    "Retail": 7.99
+  },
+  {
+    "plu": 19455,
+    "TradeName": "Happy Nat. C/nut&Rooibos Cond 300ml",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 5.99,
+    "Current SOH": 3,
+    "Retail": 12.99
+  },
+  {
+    "plu": 19456,
+    "TradeName": "Happy Nat. Keratin&Plum Spoo 300ml",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 13,
+    "SpecialPrice": 5.99,
+    "Current SOH": 5,
+    "Retail": 12.99
+  },
+  {
+    "plu": 19459,
+    "TradeName": "Happy Nat. Argan&Avocado Cond 300ml",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 5.99,
+    "Current SOH": 2,
+    "Retail": 12.99
+  },
+  {
+    "plu": 37513,
+    "TradeName": "Happy Nat. Macadam&Hemp Spoo 300ml",
+    "SpecialPrice Start Date": "08/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 5.99,
+    "Current SOH": 3,
+    "Retail": 12.99
+  },
+  {
+    "plu": 37516,
+    "TradeName": "Happy Nat. Keratin&Plum Cond 300ml",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 5.99,
+    "Current SOH": 1,
+    "Retail": 12.99
+  },
+  {
+    "plu": 64431,
+    "TradeName": "Happy Nat. C/nut&Rooibos Spoo 300ml",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 5.99,
+    "Current SOH": 3,
+    "Retail": 12.99
+  },
+  {
+    "plu": 2546914,
+    "TradeName": "ETHICS Sooth Throat Loz 16",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 79,
+    "SpecialPrice": 5.99,
+    "Current SOH": 1,
+    "Retail": 9.99
+  },
+  {
+    "plu": 2347466,
+    "TradeName": "ETHICS Paracetamol 500mg 100 CS tab",
+    "SpecialPrice Start Date": "08/08/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 509,
+    "SpecialPrice": 6.99,
+    "Current SOH": 157,
+    "Retail": 14.99
+  },
+  {
+    "plu": 94176,
+    "TradeName": "HWB DoubleRib Asst",
+    "SpecialPrice Start Date": "03/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 182,
+    "SpecialPrice": 7.99,
+    "Current SOH": 26,
+    "Retail": 9.99
+  },
+  {
+    "plu": 2185083,
+    "TradeName": "PARASIDOSE Long Tooth Lice Comb",
+    "SpecialPrice Start Date": "03/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 49,
+    "SpecialPrice": 7.99,
+    "Current SOH": 1,
+    "Retail": 10.99
+  },
+  {
+    "plu": 2533685,
+    "TradeName": "DE-WORM 500mg 2tabs Chocolate",
+    "SpecialPrice Start Date": "20/11/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 45,
+    "SpecialPrice": 7.99,
+    "Current SOH": 2,
+    "Retail": 9.99
+  },
+  {
+    "plu": 55690,
+    "TradeName": "W/SIS Mirror/Tweezer Black/Wht Set",
+    "SpecialPrice Start Date": "07/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 8.99,
+    "Current SOH": 2,
+    "Retail": 16.99
+  },
+  {
+    "plu": 287768,
+    "TradeName": "DERMASOFT Sorbolene Cr. Tube 100g",
+    "SpecialPrice Start Date": "06/11/17 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 533,
+    "SpecialPrice": 8.99,
+    "Current SOH": 21,
+    "Retail": 11.99
+  },
+  {
+    "plu": 2151634,
+    "TradeName": "NODIA Loperamide Hcl 2mg 8caps",
+    "SpecialPrice Start Date": "20/11/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 188,
+    "SpecialPrice": 8.99,
+    "Current SOH": 8,
+    "Retail": 10.99
+  },
+  {
+    "plu": 17046,
+    "TradeName": "Diffuser Rose 100ml 04377RO",
+    "SpecialPrice Start Date": "05/05/14 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 34,
+    "SpecialPrice": 9.99,
+    "Current SOH": 4,
+    "Retail": 14.99
+  },
+  {
+    "plu": 20111,
+    "TradeName": "Hot Water Bottle 2L & Cover Purple",
+    "SpecialPrice Start Date": "26/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 9.99,
+    "Current SOH": 1,
+    "Retail": 17.99
+  },
+  {
+    "plu": 20274,
+    "TradeName": "Melric Diff. Lavender 100ml",
+    "SpecialPrice Start Date": "25/09/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 27,
+    "SpecialPrice": 9.99,
+    "Current SOH": 68,
+    "Retail": 14.99
+  },
+  {
+    "plu": 20275,
+    "TradeName": "Melric Diff. Rose 100ml",
+    "SpecialPrice Start Date": "25/09/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 9.99,
+    "Current SOH": 82,
+    "Retail": 14.99
+  },
+  {
+    "plu": 23141,
+    "TradeName": "Hot Water Bottle 2L & Cover Red",
+    "SpecialPrice Start Date": "26/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 9.99,
+    "Current SOH": 3,
+    "Retail": 17.99
+  },
+  {
+    "plu": 32003,
+    "TradeName": "Melric Diff. Lavender 100ml 04418LA",
+    "SpecialPrice Start Date": "02/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 75,
+    "SpecialPrice": 9.99,
+    "Current SOH": 4,
+    "Retail": 11.99
+  },
+  {
+    "plu": 32006,
+    "TradeName": "Melric Diff. Vanilla 100ml 04418VA",
+    "SpecialPrice Start Date": "04/10/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 49,
+    "SpecialPrice": 9.99,
+    "Current SOH": 1,
+    "Retail": 11.99
+  },
+  {
+    "plu": 39956,
+    "TradeName": "Melric Diff. Magnolia 100ml",
+    "SpecialPrice Start Date": "25/09/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 8,
+    "SpecialPrice": 9.99,
+    "Current SOH": 40,
+    "Retail": 14.99
+  },
+  {
+    "plu": 69366,
+    "TradeName": "Melric Diff. Orchid 100ml",
+    "SpecialPrice Start Date": "25/09/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 13,
+    "SpecialPrice": 9.99,
+    "Current SOH": 35,
+    "Retail": 14.99
+  },
+  {
+    "plu": 77835,
+    "TradeName": "Diffuser Vanila 100ml 04377VA",
+    "SpecialPrice Start Date": "05/05/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 24,
+    "SpecialPrice": 9.99,
+    "Current SOH": 1,
+    "Retail": 14.99
+  },
+  {
+    "plu": 77852,
+    "TradeName": "Diffuser Lavender 100ml 04377LA",
+    "SpecialPrice Start Date": "05/05/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 23,
+    "SpecialPrice": 9.99,
+    "Current SOH": 3,
+    "Retail": 14.99
+  },
+  {
+    "plu": 459860,
+    "TradeName": "NK Anti-Flamme Creme 45g",
+    "SpecialPrice Start Date": "20/07/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 57,
+    "SpecialPrice": 9.99,
+    "Current SOH": 4,
+    "Retail": 17.99
+  },
+  {
+    "plu": 2385872,
+    "TradeName": "GHP Vitamin D3 1000IU 60tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 9.99,
+    "Current SOH": 6,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2538164,
+    "TradeName": "VOCALZONE Throat Past. H&L 24pk",
+    "SpecialPrice Start Date": "30/07/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 78,
+    "SpecialPrice": 9.99,
+    "Current SOH": 2,
+    "Retail": 11.99
+  },
+  {
+    "plu": 2546388,
+    "TradeName": "SOLGAR Vitamin D3 1000iu CAPS 100pk",
+    "SpecialPrice Start Date": "11/10/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 9.99,
+    "Current SOH": 5,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2562448,
+    "TradeName": "ETHICS Nasal Decongestant 24Tab",
+    "SpecialPrice Start Date": "03/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 32,
+    "SpecialPrice": 9.99,
+    "Current SOH": 3,
+    "Retail": 11.99
+  },
+  {
+    "plu": 2579898,
+    "TradeName": "AUDISOL Soft Foam Comfort & Sleep",
+    "SpecialPrice Start Date": "09/02/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 23,
+    "SpecialPrice": 9.99,
+    "Current SOH": 4,
+    "Retail": 12.99
+  },
+  {
+    "plu": 2604906,
+    "TradeName": "GHP Viralex Lysine Ointment 7g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 9.99,
+    "Current SOH": 24,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2637405,
+    "TradeName": "MAXICLEAR Xylometaz. Nasal Spr 10ml",
+    "SpecialPrice Start Date": "13/10/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 27,
+    "SpecialPrice": 9.99,
+    "Current SOH": 63,
+    "Retail": 15.99
+  },
+  {
+    "plu": 54374,
+    "TradeName": "REVIVE Moisturising Gel Gloves 6",
+    "SpecialPrice Start Date": "23/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 11.99,
+    "Current SOH": 3,
+    "Retail": 21.99
+  },
+  {
+    "plu": 2431688,
+    "TradeName": "CLINIC. Prospan Lozenges 20pk",
+    "SpecialPrice Start Date": "12/11/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 19,
+    "SpecialPrice": 11.99,
+    "Current SOH": 2,
+    "Retail": 14.99
+  },
+  {
+    "plu": 2451425,
+    "TradeName": "GO Magnesium 1-A-Day 500mg 30caps",
+    "SpecialPrice Start Date": "12/08/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 84,
+    "SpecialPrice": 11.99,
+    "Current SOH": 24,
+    "Retail": 24.99
+  },
+  {
+    "plu": 2520451,
+    "TradeName": "AUDISOL Ear Cleansing Spray 50ml",
+    "SpecialPrice Start Date": "24/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 28,
+    "SpecialPrice": 11.99,
+    "Current SOH": 1,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2608928,
+    "TradeName": "AUDIPLUGS Silicone Comfort Plugs 3pr",
+    "SpecialPrice Start Date": "24/05/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 11.99,
+    "Current SOH": 10,
+    "Retail": 15.99
+  },
+  {
+    "plu": 2609029,
+    "TradeName": "SOLGAR Gentle Iron Veg Caps 30pk",
+    "SpecialPrice Start Date": "10/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 5,
+    "SpecialPrice": 11.99,
+    "Current SOH": 7,
+    "Retail": 23.99
+  },
+  {
+    "plu": 2641801,
+    "TradeName": "me today Zinc 15 VCaps 60s",
+    "SpecialPrice Start Date": "11/08/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 11.99,
+    "Current SOH": 4,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2641828,
+    "TradeName": "me today Iron Boost 30s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 11.99,
+    "Current SOH": 3,
+    "Retail": 19.99
+  },
+  {
+    "plu": 33662,
+    "TradeName": "Eau My Dino Sh/Gel & Spoo 2D 400ml",
+    "SpecialPrice Start Date": "07/12/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 12.99,
+    "Current SOH": 1,
+    "Retail": 16.99
+  },
+  {
+    "plu": 33676,
+    "TradeName": "Cry Babies Sh/Gel &Shampoo 2D 400ml",
+    "SpecialPrice Start Date": "07/12/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 12.99,
+    "Current SOH": 3,
+    "Retail": 17.99
+  },
+  {
+    "plu": 98426,
+    "TradeName": "Simply Basic Aloe Vera Gel 400ml",
+    "SpecialPrice Start Date": "10/10/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 132,
+    "SpecialPrice": 12.99,
+    "Current SOH": 3,
+    "Retail": 14.99
+  },
+  {
+    "plu": 213845,
+    "TradeName": "CLEAR EYES 15ml",
+    "SpecialPrice Start Date": "10/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 622,
+    "SpecialPrice": 12.99,
+    "Current SOH": 209,
+    "Retail": 15.99
+  },
+  {
+    "plu": 2149540,
+    "TradeName": "IRON Melts 100mg 50tabs",
+    "SpecialPrice Start Date": "03/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 248,
+    "SpecialPrice": 12.99,
+    "Current SOH": 1,
+    "Retail": 15.99
+  },
+  {
+    "plu": 2514265,
+    "TradeName": "CRYSTAWASH Wound Wash Spray 100ml",
+    "SpecialPrice Start Date": "03/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 71,
+    "SpecialPrice": 12.99,
+    "Current SOH": 10,
+    "Retail": 15.99
+  },
+  {
+    "plu": 2522896,
+    "TradeName": "RADIANCE Kids Gummies Vit C&Zinc 45",
+    "SpecialPrice Start Date": "19/06/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 51,
+    "SpecialPrice": 12.99,
+    "Current SOH": 4,
+    "Retail": 16.99
+  },
+  {
+    "plu": 2522918,
+    "TradeName": "RADIANCE Kids Gummies Probiotic 45",
+    "SpecialPrice Start Date": "19/06/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 25,
+    "SpecialPrice": 12.99,
+    "Current SOH": 6,
+    "Retail": 16.99
+  },
+  {
+    "plu": 2574454,
+    "TradeName": "GHP B Activated B12 60vCaps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 12.99,
+    "Current SOH": 6,
+    "Retail": 19.99
+  },
+  {
+    "plu": 485691,
+    "TradeName": "DERMASOFT Soap Sub. pH5.5 250ml",
+    "SpecialPrice Start Date": "06/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 334,
+    "SpecialPrice": 13.99,
+    "Current SOH": 2,
+    "Retail": 16.99
+  },
+  {
+    "plu": 2151642,
+    "TradeName": "NODIA Loperamide Hcl 2mg 16caps",
+    "SpecialPrice Start Date": "13/07/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 492,
+    "SpecialPrice": 13.99,
+    "Current SOH": 14,
+    "Retail": 16.99
+  },
+  {
+    "plu": 2495589,
+    "TradeName": "GHP Viralex Soothe Throat 20loz",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 25,
+    "SpecialPrice": 13.99,
+    "Current SOH": 1,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2533707,
+    "TradeName": "DE-WORM 500mg 6tabs Chocolate",
+    "SpecialPrice Start Date": "20/11/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 86,
+    "SpecialPrice": 13.99,
+    "Current SOH": 9,
+    "Retail": 14.99
+  },
+  {
+    "plu": 26246,
+    "TradeName": "Unique Mug",
+    "SpecialPrice Start Date": "23/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 14.99,
+    "Current SOH": 2,
+    "Retail": 24.99
+  },
+  {
+    "plu": 70306,
+    "TradeName": "Aerial Massage Jandals",
+    "SpecialPrice Start Date": "23/10/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 28,
+    "SpecialPrice": 14.99,
+    "Current SOH": 16,
+    "Retail": 19.99
+  },
+  {
+    "plu": 388076,
+    "TradeName": "BREATH RIGHT Strips Clear Reg. 10pk",
+    "SpecialPrice Start Date": "13/08/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 140,
+    "SpecialPrice": 14.99,
+    "Current SOH": 7,
+    "Retail": 17.99
+  },
+  {
+    "plu": 485683,
+    "TradeName": "DERMASOFT Lotion Dry Sens. 250ml",
+    "SpecialPrice Start Date": "29/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 57,
+    "SpecialPrice": 14.99,
+    "Current SOH": 9,
+    "Retail": 16.99
+  },
+  {
+    "plu": 2383543,
+    "TradeName": "CLINIC. Iron Boost 30vcaps",
+    "SpecialPrice Start Date": "03/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 158,
+    "SpecialPrice": 14.99,
+    "Current SOH": 11,
+    "Retail": 18.99
+  },
+  {
+    "plu": 2451158,
+    "TradeName": "ETHICS Cold&Flu Relief Day&Night 24",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 71,
+    "SpecialPrice": 14.99,
+    "Current SOH": 11,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2464756,
+    "TradeName": "NL Lysine 1200mg 60tabs",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 72,
+    "SpecialPrice": 14.99,
+    "Current SOH": 6,
+    "Retail": 21.99
+  },
+  {
+    "plu": 2522764,
+    "TradeName": "GO Zinc Complex 1-A-Day 60vcaps",
+    "SpecialPrice Start Date": "16/02/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 14.99,
+    "Current SOH": 11,
+    "Retail": 32.99
+  },
+  {
+    "plu": 2559331,
+    "TradeName": "NL Magnesium Complete Forte 60Cap",
+    "SpecialPrice Start Date": "12/11/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 111,
+    "SpecialPrice": 14.99,
+    "Current SOH": 1,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2641879,
+    "TradeName": "EVEW Queen V 10 Caps",
+    "SpecialPrice Start Date": "11/01/24 12:00am",
+    "SpecialPrice End Date": "30/04/24 11:59pm",
+    "SpecialPrice Items sold": 5,
+    "SpecialPrice": 14.99,
+    "Current SOH": 3,
+    "Retail": 22.99
+  },
+  {
+    "plu": 2559994,
+    "TradeName": "GHP Zinc Melt 60tab",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 61,
+    "SpecialPrice": 15.99,
+    "Current SOH": 2,
+    "Retail": 22.99
+  },
+  {
+    "plu": 224847,
+    "TradeName": "DERMASOFT Sorbolene Cr. 375g",
+    "SpecialPrice Start Date": "06/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 341,
+    "SpecialPrice": 16.99,
+    "Current SOH": 2,
+    "Retail": 20.99
+  },
+  {
+    "plu": 2049341,
+    "TradeName": "GHP Mg Lax 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 16.99,
+    "Current SOH": 7,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2580152,
+    "TradeName": "GHP Vitamin C 1500mg Efferves. 30tab",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 16.99,
+    "Current SOH": 2,
+    "Retail": 25.99
+  },
+  {
+    "plu": 2588595,
+    "TradeName": "NL Vitamin C 1200mg 50tabs",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 114,
+    "SpecialPrice": 16.99,
+    "Current SOH": 1,
+    "Retail": 25.99
+  },
+  {
+    "plu": 441511,
+    "TradeName": "RENU Fresh M/Purp. Duo 355ml +120ml",
+    "SpecialPrice Start Date": "16/07/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 439,
+    "SpecialPrice": 17.99,
+    "Current SOH": 7,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2007738,
+    "TradeName": "GHP B Stress Free 30tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 17.99,
+    "Current SOH": 1,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2398346,
+    "TradeName": "GHP Magnesium Ultra Organic 60tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 148,
+    "SpecialPrice": 17.99,
+    "Current SOH": 1,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2523523,
+    "TradeName": "BLIS Daily Defence Strawberry 30s",
+    "SpecialPrice Start Date": "13/08/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 41,
+    "SpecialPrice": 17.99,
+    "Current SOH": 1,
+    "Retail": 24.99
+  },
+  {
+    "plu": 2525143,
+    "TradeName": "GHP Magnesium Sleep Cream 90g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 17.99,
+    "Current SOH": 3,
+    "Retail": 29.99
+  },
+  {
+    "plu": 2537508,
+    "TradeName": "GHP Magnesium Easy to Swallow 90cap",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 78,
+    "SpecialPrice": 17.99,
+    "Current SOH": 11,
+    "Retail": 29.99
+  },
+  {
+    "plu": 2603721,
+    "TradeName": "GO Vit D3 1000IU+Vit C&Zinc 60vcaps",
+    "SpecialPrice Start Date": "24/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 22,
+    "SpecialPrice": 17.99,
+    "Current SOH": 5,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2517140,
+    "TradeName": "GHP Viralex Kids Chews 60tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 18.99,
+    "Current SOH": 3,
+    "Retail": 26.99
+  },
+  {
+    "plu": 15423,
+    "TradeName": "Travel Mug",
+    "SpecialPrice Start Date": "23/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 19.99,
+    "Current SOH": 1,
+    "Retail": 34.99
+  },
+  {
+    "plu": 25257,
+    "TradeName": "CH Diffuser Oil Reeds Tangerine",
+    "SpecialPrice Start Date": "08/10/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 243,
+    "SpecialPrice": 19.99,
+    "Current SOH": 15,
+    "Retail": 29.99
+  },
+  {
+    "plu": 27469,
+    "TradeName": "me today Vitamin C 800 V CAPS 60s",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 19.99,
+    "Current SOH": 3,
+    "Retail": 39.99
+  },
+  {
+    "plu": 41005,
+    "TradeName": "(nr)Starfish Jandal",
+    "SpecialPrice Start Date": "23/10/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 15,
+    "SpecialPrice": 19.99,
+    "Current SOH": 11,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2385880,
+    "TradeName": "GHP Vitamin D3 1000IU 120tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 21,
+    "SpecialPrice": 19.99,
+    "Current SOH": 3,
+    "Retail": 30.99
+  },
+  {
+    "plu": 2400626,
+    "TradeName": "(nr)CLINIC. B Complex 60tabs :",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 39,
+    "SpecialPrice": 19.99,
+    "Current SOH": 4,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2424304,
+    "TradeName": "LEVRIX Tablets 5mg 30s",
+    "SpecialPrice Start Date": "02/02/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 28,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2455404,
+    "TradeName": "CLINIC. Magnesium 90cap (BOGOF) 2pk",
+    "SpecialPrice Start Date": "03/12/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 129,
+    "SpecialPrice": 19.99,
+    "Current SOH": 4,
+    "Retail": 26.99
+  },
+  {
+    "plu": 2456656,
+    "TradeName": "GHP Viralex Attack 30caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 263,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 35.99
+  },
+  {
+    "plu": 2474972,
+    "TradeName": "NEILMED Sinus Rinse Kit240ml 10Sach",
+    "SpecialPrice Start Date": "15/05/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 175,
+    "SpecialPrice": 19.99,
+    "Current SOH": 14,
+    "Retail": 19.99
+  },
+  {
+    "plu": 2513838,
+    "TradeName": "AFT Ferro-Sachets +F/A+VitC+B12 28",
+    "SpecialPrice Start Date": "09/02/24 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 34.99
+  },
+  {
+    "plu": 2537338,
+    "TradeName": "NL Ester C Ech. &Probiotic Chew 60T",
+    "SpecialPrice Start Date": "19/08/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 48,
+    "SpecialPrice": 19.99,
+    "Current SOH": 6,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2559870,
+    "TradeName": "GO Vir Defence Rapid E/Str. 30vcaps",
+    "SpecialPrice Start Date": "12/08/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 45,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 36.99
+  },
+  {
+    "plu": 2573253,
+    "TradeName": "me today Men's Daily 60vCaps",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 20,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2573350,
+    "TradeName": "me today Womens Dly Crm Clnser 100ml",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 8,
+    "SpecialPrice": 19.99,
+    "Current SOH": 7,
+    "Retail": 29.99
+  },
+  {
+    "plu": 2582112,
+    "TradeName": "NL Joint Bio Flex Capsules 30s",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2585219,
+    "TradeName": "me today Magnesium 875 60s",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2585227,
+    "TradeName": "me today Ashwagandha 3000 60vCaps",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 8,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2585251,
+    "TradeName": "me today Vitamin B12 50 180vCaps",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 19.99,
+    "Current SOH": 1,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2585286,
+    "TradeName": "me today Vit. D3 1000 VCaps 180s",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 19.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2604892,
+    "TradeName": "GHP Viralex Lysine 60tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 5,
+    "SpecialPrice": 19.99,
+    "Current SOH": 1,
+    "Retail": 25.99
+  },
+  {
+    "plu": 2622181,
+    "TradeName": "GHP Pannex Joint Cream 90g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 19.99,
+    "Current SOH": 1,
+    "Retail": 26.99
+  },
+  {
+    "plu": 436607,
+    "TradeName": "DERMASOFT Soap Sub. pH5.5 500ml",
+    "SpecialPrice Start Date": "06/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 364,
+    "SpecialPrice": 21.99,
+    "Current SOH": 2,
+    "Retail": 25.99
+  },
+  {
+    "plu": 704504,
+    "TradeName": "NUROFEN Tablets 96s:",
+    "SpecialPrice Start Date": "16/08/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 421,
+    "SpecialPrice": 21.99,
+    "Current SOH": 22,
+    "Retail": 24.99
+  },
+  {
+    "plu": 2537044,
+    "TradeName": "GHP Vitamin C Plus 150tab",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 21.99,
+    "Current SOH": 2,
+    "Retail": 34.99
+  },
+  {
+    "plu": 2263726,
+    "TradeName": "COMPLETE Easy-Rub Sol. 2X240ml",
+    "SpecialPrice Start Date": "08/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 168,
+    "SpecialPrice": 22.99,
+    "Current SOH": 4,
+    "Retail": 25.99
+  },
+  {
+    "plu": 2477602,
+    "TradeName": "GHP Magnesium Cream 90g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 67,
+    "SpecialPrice": 22.99,
+    "Current SOH": 3,
+    "Retail": 29.99
+  },
+  {
+    "plu": 2503514,
+    "TradeName": "GHP Joint Active UC-II 30s",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 22.99,
+    "Current SOH": 1,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2477599,
+    "TradeName": "GHP Magnesium Sustain Release 60tab",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 23.99,
+    "Current SOH": 5,
+    "Retail": 38.99
+  },
+  {
+    "plu": 1151618,
+    "TradeName": "ADIDAS Culture of Sport Strike Set19",
+    "SpecialPrice Start Date": "23/11/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 9,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 54.99
+  },
+  {
+    "plu": 2282852,
+    "TradeName": "NL Ester C +Bioflavanoid 1000mg 50",
+    "SpecialPrice Start Date": "15/05/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 77,
+    "SpecialPrice": 24.99,
+    "Current SOH": 3,
+    "Retail": 33.99
+  },
+  {
+    "plu": 2295520,
+    "TradeName": "GO Glucosamine 1aDay 1500mg 60caps",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 278,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2295849,
+    "TradeName": "GO Vir Defence 30vcaps",
+    "SpecialPrice Start Date": "04/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 51,
+    "SpecialPrice": 24.99,
+    "Current SOH": 9,
+    "Retail": 31.99
+  },
+  {
+    "plu": 2389614,
+    "TradeName": "GO Hair/Skin/Nail Beauty Sup 50vcap",
+    "SpecialPrice Start Date": "03/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 63,
+    "SpecialPrice": 24.99,
+    "Current SOH": 2,
+    "Retail": 33.99
+  },
+  {
+    "plu": 2406934,
+    "TradeName": "GHP Opti Mag Powder 150g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 5,
+    "SpecialPrice": 24.99,
+    "Current SOH": 4,
+    "Retail": 38.99
+  },
+  {
+    "plu": 2451417,
+    "TradeName": "GO Magnesium Sleep 60vcaps",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 121,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2546760,
+    "TradeName": "GHP Magnesium Sleep Support 60s +10",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 34.99
+  },
+  {
+    "plu": 2573288,
+    "TradeName": "me today Goodnight 60vCaps",
+    "SpecialPrice Start Date": "31/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 24.99,
+    "Current SOH": 3,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2573326,
+    "TradeName": "me today Becalm 60s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 24.99,
+    "Current SOH": 3,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2573385,
+    "TradeName": "me today Women Daily Serum 30ml",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 24.99,
+    "Current SOH": 4,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2573407,
+    "TradeName": "me today Womens Dly Night Crm 50ml",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 24.99,
+    "Current SOH": 3,
+    "Retail": 54.99
+  },
+  {
+    "plu": 2598027,
+    "TradeName": "NL BalanceME Magnesium Program",
+    "SpecialPrice Start Date": "29/07/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 24.99,
+    "Current SOH": 4,
+    "Retail": 34.99
+  },
+  {
+    "plu": 2603713,
+    "TradeName": "GO D-Manrose 1200mg 60vcaps",
+    "SpecialPrice Start Date": "24/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 11,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2610701,
+    "TradeName": "me today Mens Daily Moisturiser 50ml",
+    "SpecialPrice Start Date": "15/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2630400,
+    "TradeName": "me today Cranberry 30000 60vCaps",
+    "SpecialPrice Start Date": "11/08/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 24.99,
+    "Current SOH": 1,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2641739,
+    "TradeName": "me today Sleep Tight 60s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 24.99,
+    "Current SOH": 4,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2641747,
+    "TradeName": "me today Joint Comfort 60s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 24.99,
+    "Current SOH": 6,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2641755,
+    "TradeName": "me today Echinacea 4000 VCap 60s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 24.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2121662,
+    "TradeName": "GHP Uricleanse 50caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 25.99,
+    "Current SOH": 1,
+    "Retail": 37.99
+  },
+  {
+    "plu": 2577526,
+    "TradeName": "GHP B Activated Complex 30cap",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 25.99,
+    "Current SOH": 3,
+    "Retail": 36.99
+  },
+  {
+    "plu": 362298,
+    "TradeName": "GHP Oyster 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 26.99,
+    "Current SOH": 1,
+    "Retail": 35.99
+  },
+  {
+    "plu": 2406926,
+    "TradeName": "GHP Liver Tonic 17500mg 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 26.99,
+    "Current SOH": 2,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2546779,
+    "TradeName": "GHP Magnesium Sleep Support 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 26.99,
+    "Current SOH": 1,
+    "Retail": 24.99
+  },
+  {
+    "plu": 2033569,
+    "TradeName": "GHP Colostrum Chew Vanilla 150tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 27.99,
+    "Current SOH": 3,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2586053,
+    "TradeName": "GHP Rapid Calm Efferv. 30tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 27.99,
+    "Current SOH": 1,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2538474,
+    "TradeName": "GHP Magnesium Easy Swallow 90 2pk",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 28.99,
+    "Current SOH": 5,
+    "Retail": 56.99
+  },
+  {
+    "plu": 1107901,
+    "TradeName": "EA 5th Ave EDP Spray 30ml",
+    "SpecialPrice Start Date": "15/10/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 92,
+    "SpecialPrice": 29,
+    "Current SOH": 3,
+    "Retail": 74
+  },
+  {
+    "plu": 1125361,
+    "TradeName": "BECKHAM Instinct EDT 75ml",
+    "SpecialPrice Start Date": "13/07/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 53,
+    "SpecialPrice": 29,
+    "Current SOH": 2,
+    "Retail": 40
+  },
+  {
+    "plu": 2037963,
+    "TradeName": "EA Green Tea EDT 100ml",
+    "SpecialPrice Start Date": "30/04/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 27,
+    "SpecialPrice": 29,
+    "Current SOH": 5,
+    "Retail": 35
+  },
+  {
+    "plu": 396362,
+    "TradeName": "GHP Omega 3 Fish Oil 1000mg 150caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 13,
+    "SpecialPrice": 29.99,
+    "Current SOH": 1,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2244039,
+    "TradeName": "DERMASOFT Soap Sub. pH5.5 1L",
+    "SpecialPrice Start Date": "08/01/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 496,
+    "SpecialPrice": 29.99,
+    "Current SOH": 11,
+    "Retail": 36.99
+  },
+  {
+    "plu": 2463245,
+    "TradeName": "GHP Turmeric 15800 Complex 30caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 17,
+    "SpecialPrice": 29.99,
+    "Current SOH": 3,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2491761,
+    "TradeName": "GO Stress Remedy 60vcaps",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 40,
+    "SpecialPrice": 29.99,
+    "Current SOH": 1,
+    "Retail": 55.99
+  },
+  {
+    "plu": 2506947,
+    "TradeName": "GHP Synetrim Slim 60Caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 29.99,
+    "Current SOH": 3,
+    "Retail": 46.99
+  },
+  {
+    "plu": 2548011,
+    "TradeName": "CETAPHIL Kid SPF50+ Liposomal 150ml",
+    "SpecialPrice Start Date": "05/01/24 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 29.99,
+    "Current SOH": 122,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2571765,
+    "TradeName": "GHP Brain Power 60vCaps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 29.99,
+    "Current SOH": 12,
+    "Retail": 47.99
+  },
+  {
+    "plu": 2572664,
+    "TradeName": "CLINIC. Flora Restore 30caps bp",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 328,
+    "SpecialPrice": 29.99,
+    "Current SOH": 5,
+    "Retail": 36.99
+  },
+  {
+    "plu": 2599651,
+    "TradeName": "PRONAIL Plus Nail Solu 10ml",
+    "SpecialPrice Start Date": "28/07/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 33,
+    "SpecialPrice": 29.99,
+    "Current SOH": 4,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2600927,
+    "TradeName": "EN Inner Health RestoreBiotic 20caps",
+    "SpecialPrice Start Date": "29/03/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 169,
+    "SpecialPrice": 29.99,
+    "Current SOH": 3,
+    "Retail": 52.99
+  },
+  {
+    "plu": 2627736,
+    "TradeName": "NL Probiotic H/P 50 Billion 30caps",
+    "SpecialPrice Start Date": "01/08/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 29.99,
+    "Current SOH": 31,
+    "Retail": 39.99
+  },
+  {
+    "plu": 2630990,
+    "TradeName": "Pronail Plus 4ml",
+    "SpecialPrice Start Date": "28/07/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 13,
+    "SpecialPrice": 29.99,
+    "Current SOH": 4,
+    "Retail": 44.99
+  },
+  {
+    "plu": 2641712,
+    "TradeName": "me today Keratin 400 VCaps 30s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 29.99,
+    "Current SOH": 3,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2641720,
+    "TradeName": "me today Hyaluronic Acid 120mg 120s",
+    "SpecialPrice Start Date": "05/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 29.99,
+    "Current SOH": 3,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2119811,
+    "TradeName": "GHP B Stress Free 60tabs",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 32.99,
+    "Current SOH": 6,
+    "Retail": 46.99
+  },
+  {
+    "plu": 2491109,
+    "TradeName": "GHP Cranberry 60000mg 50caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 32.99,
+    "Current SOH": 23,
+    "Retail": 44.99
+  },
+  {
+    "plu": 249645,
+    "TradeName": "GHP Flaxomega 500ml",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 8,
+    "SpecialPrice": 33.99,
+    "Current SOH": 1,
+    "Retail": 44.99
+  },
+  {
+    "plu": 244880,
+    "TradeName": "GHP Viralex 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 17,
+    "SpecialPrice": 34.99,
+    "Current SOH": 1,
+    "Retail": 50.99
+  },
+  {
+    "plu": 2535564,
+    "TradeName": "LIPOSHELL Vit C Lipo-Sachets 30pk",
+    "SpecialPrice Start Date": "15/05/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 283,
+    "SpecialPrice": 34.99,
+    "Current SOH": 6,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2577534,
+    "TradeName": "GHP B Activated Complex 60cap",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 34.99,
+    "Current SOH": 2,
+    "Retail": 51.99
+  },
+  {
+    "plu": 2606798,
+    "TradeName": "BePure Immune Action 45 Caps",
+    "SpecialPrice Start Date": "01/08/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 28,
+    "SpecialPrice": 34.99,
+    "Current SOH": 6,
+    "Retail": 44.99
+  },
+  {
+    "plu": 1137728,
+    "TradeName": "EA NM Minajesty B/Lot. 6.8oz",
+    "SpecialPrice Start Date": "13/07/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 27,
+    "SpecialPrice": 35,
+    "Current SOH": 3,
+    "Retail": 39
+  },
+  {
+    "plu": 1140054,
+    "TradeName": "EA Red Door EDT Spray 30ml",
+    "SpecialPrice Start Date": "29/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 97,
+    "SpecialPrice": 35,
+    "Current SOH": 9,
+    "Retail": 38
+  },
+  {
+    "plu": 2453185,
+    "TradeName": "GHP Glucosamine 1-A-Day 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 96,
+    "SpecialPrice": 37.99,
+    "Current SOH": 2,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2541807,
+    "TradeName": "GHP CoQ10 400mg 30caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 31,
+    "SpecialPrice": 37.99,
+    "Current SOH": 2,
+    "Retail": 51.99
+  },
+  {
+    "plu": 1170323,
+    "TradeName": "LANVIN Eclat D'Arpege EDP 30ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 39,
+    "Current SOH": 3,
+    "Retail": 89
+  },
+  {
+    "plu": 2318962,
+    "TradeName": "GHP Viralex attack 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 39.99,
+    "Current SOH": 3,
+    "Retail": 64.99
+  },
+  {
+    "plu": 2351226,
+    "TradeName": "GO Probiotic 40B HOWARU Restore 60",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 24,
+    "SpecialPrice": 39.99,
+    "Current SOH": 1,
+    "Retail": 64.99
+  },
+  {
+    "plu": 2406918,
+    "TradeName": "GHP Imaglow 60tabs FBR10300",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 39.99,
+    "Current SOH": 7,
+    "Retail": 62.99
+  },
+  {
+    "plu": 2537516,
+    "TradeName": "GHP Organic Magnesium Ultra 120tab",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 39.99,
+    "Current SOH": 4,
+    "Retail": 52.99
+  },
+  {
+    "plu": 2544105,
+    "TradeName": "NL Probiotic 50 Billion 60caps",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 49,
+    "SpecialPrice": 39.99,
+    "Current SOH": 7,
+    "Retail": 68.99
+  },
+  {
+    "plu": 2567253,
+    "TradeName": "GO Turmeric + Glucos. 1ADay 150cap",
+    "SpecialPrice Start Date": "12/03/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 17,
+    "SpecialPrice": 39.99,
+    "Current SOH": 6,
+    "Retail": 72.99
+  },
+  {
+    "plu": 2601524,
+    "TradeName": "GHP Imaglow Hair & Nails 90g",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 39.99,
+    "Current SOH": 2,
+    "Retail": 62.99
+  },
+  {
+    "plu": 2639815,
+    "TradeName": "ORAL B Vitality C/Action Eco Box",
+    "SpecialPrice Start Date": "11/10/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 39.99,
+    "Current SOH": 2,
+    "Retail": 54.99
+  },
+  {
+    "plu": 2389622,
+    "TradeName": "GO Hair/Skn/Nail Beauty Sup 100vcap",
+    "SpecialPrice Start Date": "12/11/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 62,
+    "SpecialPrice": 41.99,
+    "Current SOH": 4,
+    "Retail": 54.99
+  },
+  {
+    "plu": 2506351,
+    "TradeName": "CLINIC. VisionCare +Lutein AREDS 90",
+    "SpecialPrice Start Date": "12/11/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 29,
+    "SpecialPrice": 41.99,
+    "Current SOH": 6,
+    "Retail": 54.99
+  },
+  {
+    "plu": 2201844,
+    "TradeName": "NL Joint Care 200caps",
+    "SpecialPrice Start Date": "29/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 69,
+    "SpecialPrice": 42.99,
+    "Current SOH": 2,
+    "Retail": 99
+  },
+  {
+    "plu": 2483750,
+    "TradeName": "GHP Turmeric 15800 Complex 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 28,
+    "SpecialPrice": 44.99,
+    "Current SOH": 8,
+    "Retail": 68.99
+  },
+  {
+    "plu": 2490005,
+    "TradeName": "GO Celery 16000 1-A-Day 120vcaps",
+    "SpecialPrice Start Date": "12/11/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 38,
+    "SpecialPrice": 44.99,
+    "Current SOH": 5,
+    "Retail": 64.99
+  },
+  {
+    "plu": 2510448,
+    "TradeName": "GHP Turmeric Extra Strength 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 44.99,
+    "Current SOH": 5,
+    "Retail": 75.99
+  },
+  {
+    "plu": 1107299,
+    "TradeName": "Versace E.Fraiche Man EDT Spr 30ml",
+    "SpecialPrice Start Date": "19/02/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 45,
+    "SpecialPrice": 45,
+    "Current SOH": 2,
+    "Retail": 78
+  },
+  {
+    "plu": 1122690,
+    "TradeName": "DAVIDOFF CW M EDT Spray 75ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 36,
+    "SpecialPrice": 45,
+    "Current SOH": 3,
+    "Retail": 94
+  },
+  {
+    "plu": 1131880,
+    "TradeName": "CK IN2U Him EDT 50ml",
+    "SpecialPrice Start Date": "13/07/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 48,
+    "SpecialPrice": 45,
+    "Current SOH": 2,
+    "Retail": 73
+  },
+  {
+    "plu": 1133049,
+    "TradeName": "EA Sunflowers EDT Spray 100ml",
+    "SpecialPrice Start Date": "29/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 59,
+    "SpecialPrice": 45,
+    "Current SOH": 5,
+    "Retail": 45
+  },
+  {
+    "plu": 1133159,
+    "TradeName": "CK Shock Him EDT 50ml",
+    "SpecialPrice Start Date": "29/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 38,
+    "SpecialPrice": 45,
+    "Current SOH": 1,
+    "Retail": 65
+  },
+  {
+    "plu": 1133161,
+    "TradeName": "CK IN2U Her EDT 50ml",
+    "SpecialPrice Start Date": "11/08/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 26,
+    "SpecialPrice": 45,
+    "Current SOH": 3,
+    "Retail": 72
+  },
+  {
+    "plu": 1133168,
+    "TradeName": "CK One EDT Spray 50ml",
+    "SpecialPrice Start Date": "29/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 37,
+    "SpecialPrice": 45,
+    "Current SOH": 1,
+    "Retail": 63
+  },
+  {
+    "plu": 2308215,
+    "TradeName": "GHP High 5HTP 100mg 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 46.99,
+    "Current SOH": 3,
+    "Retail": 62.99
+  },
+  {
+    "plu": 1119616,
+    "TradeName": "JOOP Homme EDT 75ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 65,
+    "SpecialPrice": 49,
+    "Current SOH": 7,
+    "Retail": 101
+  },
+  {
+    "plu": 1124917,
+    "TradeName": "NINA EDT Spray 30ml",
+    "SpecialPrice Start Date": "29/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 49,
+    "Current SOH": 1,
+    "Retail": 77
+  },
+  {
+    "plu": 2390469,
+    "TradeName": "GHP Red Super Krill 750mg 60caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 49.99,
+    "Current SOH": 5,
+    "Retail": 66.99
+  },
+  {
+    "plu": 2453193,
+    "TradeName": "GHP Glucosamine 1-A-Day Twin Pk 120",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 49.99,
+    "Current SOH": 3,
+    "Retail": 86.99
+  },
+  {
+    "plu": 2496283,
+    "TradeName": "GO CoQ10 400mg 1-A-Day 30caps",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 32,
+    "SpecialPrice": 49.99,
+    "Current SOH": 4,
+    "Retail": 49.99
+  },
+  {
+    "plu": 2534061,
+    "TradeName": "GHP Turmeric 15800 Complex 90caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 19,
+    "SpecialPrice": 49.99,
+    "Current SOH": 6,
+    "Retail": 81.99
+  },
+  {
+    "plu": 2630591,
+    "TradeName": "NL Liposomal-C 1200 C+Zinc+D 60tabs",
+    "SpecialPrice Start Date": "24/05/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 6,
+    "SpecialPrice": 49.99,
+    "Current SOH": 1,
+    "Retail": 99.99
+  },
+  {
+    "plu": 1110359,
+    "TradeName": "CK One EDT 100mI",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 71,
+    "SpecialPrice": 51,
+    "Current SOH": 4,
+    "Retail": 100
+  },
+  {
+    "plu": 2122103,
+    "TradeName": "GHP Flaxomega 300caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 5,
+    "SpecialPrice": 51.99,
+    "Current SOH": 2,
+    "Retail": 81.99
+  },
+  {
+    "plu": 2308207,
+    "TradeName": "GHP Mussel 2500mg 300caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 51.99,
+    "Current SOH": 4,
+    "Retail": 71.99
+  },
+  {
+    "plu": 2393344,
+    "TradeName": "GHP Omega 3 Fish Oil 1500mg 400caps",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 216,
+    "SpecialPrice": 54.99,
+    "Current SOH": 12,
+    "Retail": 79.99
+  },
+  {
+    "plu": 2424479,
+    "TradeName": "GO Mussel 2600 NZ Green Lip. 300cap",
+    "SpecialPrice Start Date": "05/04/21 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 26,
+    "SpecialPrice": 54.99,
+    "Current SOH": 1,
+    "Retail": 84.99
+  },
+  {
+    "plu": 1144277,
+    "TradeName": "Guess MARC Mens EDT 100ml",
+    "SpecialPrice Start Date": "29/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 74,
+    "SpecialPrice": 59,
+    "Current SOH": 2,
+    "Retail": 138
+  },
+  {
+    "plu": 1145184,
+    "TradeName": "CHOP Wish EDP 75ml",
+    "SpecialPrice Start Date": "05/11/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 36,
+    "SpecialPrice": 59,
+    "Current SOH": 1,
+    "Retail": 71
+  },
+  {
+    "plu": 1146142,
+    "TradeName": "CK Shock Him EDT 100ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 59,
+    "Current SOH": 2,
+    "Retail": 87
+  },
+  {
+    "plu": 1146143,
+    "TradeName": "CK IN2U Her EDT 100ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 12,
+    "SpecialPrice": 59,
+    "Current SOH": 9,
+    "Retail": 105
+  },
+  {
+    "plu": 1146144,
+    "TradeName": "CK IN2U Him EDT 100ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 60,
+    "SpecialPrice": 59,
+    "Current SOH": 4,
+    "Retail": 105
+  },
+  {
+    "plu": 1159567,
+    "TradeName": "Britney Spears Prerog. EGO 100ml",
+    "SpecialPrice Start Date": "30/04/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 9,
+    "SpecialPrice": 59,
+    "Current SOH": 5,
+    "Retail": 81
+  },
+  {
+    "plu": 19144,
+    "TradeName": "GO Cellular Support NAD 30",
+    "SpecialPrice Start Date": "04/11/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 1,
+    "SpecialPrice": 59.99,
+    "Current SOH": 9,
+    "Retail": 69.99
+  },
+  {
+    "plu": 2496682,
+    "TradeName": "GO Probiotic 75 Billion 60vcaps",
+    "SpecialPrice Start Date": "03/04/19 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 41,
+    "SpecialPrice": 59.99,
+    "Current SOH": 1,
+    "Retail": 84.99
+  },
+  {
+    "plu": 1156825,
+    "TradeName": "DAVIDOFF CW M EDT Spray 125ml",
+    "SpecialPrice Start Date": "07/02/24 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 65,
+    "Current SOH": 12,
+    "Retail": 136
+  },
+  {
+    "plu": 2461471,
+    "TradeName": "GHP Bilberry 25000mg +Lutein 6mg 60",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 31,
+    "SpecialPrice": 69.99,
+    "Current SOH": 22,
+    "Retail": 86.99
+  },
+  {
+    "plu": 2537028,
+    "TradeName": "GHP Turmeric Extra Strength 90cap",
+    "SpecialPrice Start Date": "08/07/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 14,
+    "SpecialPrice": 69.99,
+    "Current SOH": 2,
+    "Retail": 99.99
+  },
+  {
+    "plu": 1145903,
+    "TradeName": "KL Bois De Yuzu EDT 100ml",
+    "SpecialPrice Start Date": "30/04/22 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 3,
+    "SpecialPrice": 71,
+    "Current SOH": 1,
+    "Retail": 83
+  },
+  {
+    "plu": 1122187,
+    "TradeName": "CK Euphoria Mens EDT Spray 50ml",
+    "SpecialPrice Start Date": "29/09/18 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 21,
+    "SpecialPrice": 79,
+    "Current SOH": 2,
+    "Retail": 126
+  },
+  {
+    "plu": 1146511,
+    "TradeName": "MONT BLANC Individuel Men EDT 75ml",
+    "SpecialPrice Start Date": "19/10/16 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 7,
+    "SpecialPrice": 89,
+    "Current SOH": 1,
+    "Retail": 123
+  },
+  {
+    "plu": 1146518,
+    "TradeName": "STELLA POP EDP 50ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 89,
+    "Current SOH": 1,
+    "Retail": 118
+  },
+  {
+    "plu": 1153135,
+    "TradeName": "EA Viva La Juicy EDP Spray 100ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 2,
+    "SpecialPrice": 91,
+    "Current SOH": 4,
+    "Retail": 151
+  },
+  {
+    "plu": 1133166,
+    "TradeName": "MARCJ Daisy Dream EDT 50ml",
+    "SpecialPrice Start Date": "17/05/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": "",
+    "SpecialPrice": 99,
+    "Current SOH": 7,
+    "Retail": 125
+  },
+  {
+    "plu": 1121463,
+    "TradeName": "Boss Bottled (Grey) EDT 50ml",
+    "SpecialPrice Start Date": "05/09/23 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 49,
+    "SpecialPrice": 99.99,
+    "Current SOH": 8,
+    "Retail": 129
+  },
+  {
+    "plu": 29520,
+    "TradeName": "Versace Dylan Blue PF EDP 50ml Set2020",
+    "SpecialPrice Start Date": "20/11/20 12:00am",
+    "SpecialPrice End Date": "14/03/24 12:00am",
+    "SpecialPrice Items sold": 4,
+    "SpecialPrice": 110,
+    "Current SOH": 2,
+    "Retail": 151
+  }
+]
