@@ -10,6 +10,7 @@ import ShelfLabels from '../pages/ShelfLabels';
 import NotFound from '../pages/not-found';
 import AddPost from '../pages/AddPost';
 import PrintA5 from '../pages/PrintA5';
+import StockItem from '../pages/StockItem';
 
 export default function AppRoutes() {
     return (
@@ -24,6 +25,7 @@ export default function AppRoutes() {
             <Route path="/shelflabels" element={<ShelfLabels />} />
             <Route path="/addpost" element={<AddPost />} />
             <Route path="/printA5" element={<PrintA5 />} />
+            <Route path="/stockitem" element={<StockItem />} />
 
         </Routes>
     )
