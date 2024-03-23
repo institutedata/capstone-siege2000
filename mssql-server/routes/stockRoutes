@@ -1,0 +1,10 @@
+const express = require("express");
+const router = express.Router();
+const Controllers = require("../controllers/index");
+
+router.get("/", (req, res) => {
+  console.log("Stock request rexeived");
+  Controllers.stockController.getStock(res);
+});
+
+module.exports = router;
