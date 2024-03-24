@@ -14,8 +14,12 @@ const PORT = process.env.PORT || 8080;
 //routes
 //stock routes
 let stockRoutes = require("./routes/stockRoutes");
+let specialsRoutes = require("./routes/specialsRoutes");
+let specialItemsRoutes = (s = require("./routes/specialItemsRoutes"));
 console.log("Stock route requested in server.js");
 app.use("/api/stock", stockRoutes);
+app.use("/api/specials", specialsRoutes);
+app.use("/api/special-items", specialItemsRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running
