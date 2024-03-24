@@ -11,6 +11,7 @@ import NotFound from '../pages/not-found';
 import AddPost from '../pages/AddPost';
 import PrintA5 from '../pages/PrintA5';
 import StockItem from '../pages/StockItem';
+import Stock from '../pages/Stock';
 
 export default function AppRoutes() {
     return (
@@ -26,6 +27,7 @@ export default function AppRoutes() {
             <Route path="/addpost" element={<AddPost />} />
             <Route path="/printA5" element={<PrintA5 />} />
             <Route path="/stockitem" element={<StockItem />} />
+            <Route path="/stock" element={<Stock />} />
 
         </Routes>
     )
