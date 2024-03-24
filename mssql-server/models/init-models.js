@@ -13,6 +13,9 @@ init();
 SpecialItems.belongsTo(Stock, { foreignKey: "stockid" }); // If each SpecialItem is associated with one Stock
 Stock.hasMany(SpecialItems, { foreignKey: "stockid" }); // If a Stock can have many SpecialItems
 
+SpecialItems.belongsTo(Specials, { foreignKey: "SpecialID" });
+Specials.hasMany(SpecialItems, { foreignKey: "SpecialID" });
+
 module.exports = {
   Stock, //export the model
   Specials,

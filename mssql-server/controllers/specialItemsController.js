@@ -25,10 +25,21 @@ const fetchLimitedStockWithSpecialItems = async (res) => {
           attributes: ["StockID", "TradeName", "RealCost", "PLU", "Retail"],
           required: true,
         },
+        {
+          model: Models.Specials, // Include the Specials model
+          attributes: [
+            "SpecialID",
+            "SpecialName",
+            "StartDate",
+            "FinishDate",
+            "ActiveSpecial",
+          ], // Specify the attributes you need
+          required: true, // Use 'required: true' for an INNER JOIN
+            where: {
+              ActiveSpecial: 1,
+            },
+        },
       ],
-      where: {
-        SpecialID: 114,
-      },
     });
     res.json(SpecialItems);
   } catch (error) {
