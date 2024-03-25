@@ -10,10 +10,11 @@ router.get("/", (req, res) => {
 
 router.get("/search", async (req, res) => {
   try {
-    const { plu, tradeName } = req.query;
+    const { plu, tradeName, stockID } = req.query;
     const results = await searchStock({
       plu,
       tradeName,
+      stockID,
     });
     res.json(results);
   } catch (error) {

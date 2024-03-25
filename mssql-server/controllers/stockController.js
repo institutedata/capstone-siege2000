@@ -17,7 +17,7 @@ const getStock = async (res) => {
   }
 };
 
-const searchStock = async ({ plu, tradeName }) => {
+const searchStock = async ({ plu, tradeName, stockID }) => {
   const query = {
     where: {},
   };
@@ -28,6 +28,9 @@ const searchStock = async ({ plu, tradeName }) => {
   if (plu) {
     searchConditions.push({ PLU: plu });
   }
+  if (stockID) {
+    searchConditions.push({ StockID: Number(stockID) });
+  }
 
   if (tradeName) {
     searchConditions.push({
@@ -37,12 +40,14 @@ const searchStock = async ({ plu, tradeName }) => {
     });
   }
 
+  console.log({ plu, tradeName, stockID });
   if (searchConditions.length) {
     query.where = {
       [Op.or]: searchConditions,
       [Op.and]: { StockType: 0 },
     };
   }
+  query.order = ["TradeName"];
   query.attributes = [
     "StockID",
     "PLU",
@@ -50,6 +55,9 @@ const searchStock = async ({ plu, tradeName }) => {
     "PLU",
     "RealCost",
     "Retail",
+    "SOH",
+    "MTD",
+    "PackSize",
   ];
 
   return Models.Stock.findAll(query);
