@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Paper, Typography, TextField, Button, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
+import {FormControl, Grid, Typography, TextField, Button, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 
 export default function Stock() {
     const [inputValue, setInputValue] = useState('');
@@ -26,11 +26,11 @@ export default function Stock() {
 
     return (
         <div className="posts">
-            <Paper >
-                <Typography variant="h4" component="h1" gutterBottom>
-                    Stock
-                </Typography>
-                <form onSubmit={handleSearch}>
+            <Typography variant="h4">Stock</Typography>
+            <Grid  container spacing={2} width="80%" >
+               
+                <Grid item xs={12} md={12}sx={{flexDirection:'row'}}>
+                <FormControl onSubmit={handleSearch} xs={12}sx={{ boxShadow: 1,p:2, flexDirection:'row'}} >
                     <TextField 
                         label="Trade Name or PLU" 
                         value={inputValue} 
@@ -38,7 +38,8 @@ export default function Stock() {
                     >
                     </TextField>
                     <Button variant="contained" color="primary" type="submit" > Search</Button>
-                </form>
+                </FormControl>
+                </Grid>
 
                 {searchResults.length > 0 && (
                     <Table>
@@ -60,7 +61,7 @@ export default function Stock() {
                         </TableBody>
                     </Table>
                 )}
-            </Paper>
+            </Grid>
         </div>
     );
 }

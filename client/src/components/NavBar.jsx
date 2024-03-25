@@ -17,7 +17,7 @@ import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 
-const pages = ['Notices',  'Specials','Login'];
+const pages = ['Notices',  'Specials','Login', 'Stock'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 export const DarkModeToggle = () => {
   const [isDark, setIsDark] = useState(true);
