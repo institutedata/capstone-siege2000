@@ -126,7 +126,7 @@ function NavBar() {
              
             </Menu>
           </Box>
-          <Typography variant='h6' color='inherit' sx={{ flexGrow: 1 }}>Doubtless Bay Pharmacy</Typography>
+          <Typography variant='h6' color='inherit' sx={{ flexGrow: 1 }}>PharmaShelf Plus</Typography>
           <Typography
             variant="h5"
             noWrap

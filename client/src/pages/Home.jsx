@@ -11,7 +11,7 @@ export default function HomePage() {
     return (
         <div className="posts" textAlign="center" >
             <Typography variant="h3" gutterBottom>
-                pharmAdmin
+                PharmaShelf Plus
             </Typography>
             
             <Grid container spacing={2}xs={12} md={8} justifyContent="center">
