@@ -34,11 +34,12 @@ export default function Stock() {
     return (
         <div className="posts">
             <Typography variant="h4">Stock</Typography>
-            <Grid  container spacing={2} width="80%" >
+            <Typography variant="body1">Search for a stock item by Trade Name or PLU. Barcode search coming soon.</Typography>
+            <Grid  container spacing={2} width="80%" sx={{border:"0"}}>
                
-                <Grid item xs={12} md={12}sx={{flexDirection:'row'}}>
+                <Grid item xs={12} md={12}sx={{flexDirection:'row', border:"0"}}>
                 <form onSubmit={handleSearch}>
-                <FormControl onSubmit={handleSearch} xs={12}sx={{ boxShadow: 1,p:2, flexDirection:'row'}} >
+                <FormControl onSubmit={handleSearch} xs={12}sx={{ p:2, flexDirection:'row'}} >
                     <TextField 
                         label="Trade Name or PLU" 
                         value={inputValue} 

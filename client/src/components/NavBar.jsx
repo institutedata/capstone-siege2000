@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -17,18 +18,19 @@ import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 
-const pages = ['Home','Notices',  'Specials','Login', 'Stock'];
+const pages = ['Notices',  'Specials', 'Stock','Login',];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 export const DarkModeToggle = () => {
   const [isDark, setIsDark] = useState(true);
 
-  const systemPrefersDark = useMediaQuery(
-    {
-      query: "(prefers-color-scheme: dark)",
-    },
-    undefined,
-    (isSystemDark) => setIsDark(isSystemDark)
-  );
+  // Listen to the system preference
+  const systemPrefersDark = useMediaQuery({
+    query: '(prefers-color-scheme: dark)',
+  });
+
+  useEffect(() => {
+    setIsDark(systemPrefersDark);
+  }, [systemPrefersDark]);
 
   return (
     <Toggle
@@ -39,7 +41,6 @@ export const DarkModeToggle = () => {
     />
   );
 };
-
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -62,6 +63,7 @@ function NavBar() {
 
   return (
     <AppBar position="fixed" className="appbar">
+      
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           
@@ -80,8 +82,9 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            Doubtless Bay Pharmacy
+           Home
           </Typography>
+          
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -115,13 +118,15 @@ function NavBar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="left">
-                    <Link to={`/${page}`}>{page}</Link>
+                    <Link to={`/${page.toLowerCase()}`}>{page}</Link>
                   </Typography>
                 </MenuItem>
               ))}
+            
+             
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <Typography variant='h6' color='inherit' sx={{ flexGrow: 1 }}>Doubtless Bay Pharmacy</Typography>
           <Typography
             variant="h5"
             noWrap
@@ -147,10 +152,12 @@ function NavBar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-               <Link to={`/${page}`}>{page}</Link>
+               <Link to={`/${page.toLowerCase()}`}>{page}</Link>
               </Button>
             ))}
+              
           </Box>
+          
 
           <Box sx={{ flexGrow: 0 }}>
             
@@ -178,7 +185,7 @@ function NavBar() {
 >
    {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseUserMenu}>
-                  <Link to={`/${page}`}>{page}</Link>
+                  <Link to={`/${page.toLowerCase()}`}>{page}</Link>
                 </MenuItem>
               ))}
             </Menu>
