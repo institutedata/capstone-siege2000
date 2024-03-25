@@ -16,9 +16,14 @@ import { BarChart } from '@mui/x-charts/BarChart';
 
 
 
-export default function ChartsOverviewDemo() {
-  return (
-    <BarChart
+export default function StockSalesChart({stockID}) {
+  
+    
+    return    (
+      
+      <React.Fragment>
+        <Typography variant="h6">Stock Sales Chart for {stockID}</Typography>
+      <BarChart
       series={[
         { data: [35, 44, 24, 34] },
         { data: [51, 6, 49, 30] },
@@ -28,5 +33,7 @@ export default function ChartsOverviewDemo() {
       xAxis={[{ data: ['Jan', 'Feb', 'Mar','Apr'], scaleType: 'band' }]}
       margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
     />
-  );
-}
+    </React.Fragment>
+    
+    )
+     }

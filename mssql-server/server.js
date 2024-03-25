@@ -26,13 +26,12 @@ const PORT = process.env.PORT || 8080;
 let stockRoutes = require("./routes/stockRoutes");
 let specialsRoutes = require("./routes/specialsRoutes");
 let specialItemsRoutes = (s = require("./routes/specialItemsRoutes"));
+let historyRoutes = require("./routes/historyRoutes");
 console.log("Stock route requested in server.js");
 app.use("/api/stock", stockRoutes);
 app.use("/api/specials", specialsRoutes);
 app.use("/api/special-items", specialItemsRoutes);
-app.get("/test-cors", (req, res) => {
-  res.json({ message: "CORS works!" });
-});
+app.use("/api/history", historyRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running

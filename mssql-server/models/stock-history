@@ -1,0 +1,44 @@
+const { DataTypes, Model } = require("sequelize");
+let dbConnect = require("../dbConnect");
+const sequelizeInstance = dbConnect.Sequelize;
+
+class History extends Model {}
+
+History.init(
+  {
+    HistoryID: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true, // Assuming StockID is auto-incremented
+    },
+    StockID: {
+      type: DataTypes.INTEGER, // Adjust the length as per your requirement
+      allowNull: false,
+      defaultValue: "New Card", // Default value as defined in your table
+    },
+    Month: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: new Date(), // Default value as defined in your table
+    },
+    TotalRealCost: {
+      type: DataTypes.NUMBER,
+      allowNull: false,
+      defaultValue: new Date(), // Default value as defined in your table
+    },
+    ValueSold: {
+      type: DataTypes.NUMBER,
+      allowNull: false,
+      defaultValue: new Date(), // Default value as defined in your table
+    },
+  },
+  {
+    sequelize: sequelizeInstance,
+    modelName: "History",
+    tableName: "History", // Explicitly specifying the table name
+    timestamps: false, // Assuming you are not using Sequelize's automatic timestamp columns
+  }
+);
+
+module.exports = History;

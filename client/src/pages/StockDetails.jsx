@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { FormControl, Stack, TextField, Typography } from '@mui/material';
+import StockSalesChart from '../components/stockSalesChart';
 
 const StockDetails = () => {
   const { stockID } = useParams();
@@ -48,6 +49,10 @@ const StockDetails = () => {
                         <TextField sx={{ml:1, mt:2}}label="SOH" defaultValue={stock.SOH} />
                         
                     </FormControl>
+                    <FormControl  sx={{flexDirection:'row', m:4, border:1, mt:2, p:1}} >
+                       <StockSalesChart stockID = {stockID}/>
+
+                        </FormControl>
                     </Stack>
                     </div>
                 ))}
