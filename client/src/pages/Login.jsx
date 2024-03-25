@@ -8,6 +8,7 @@ import FormLabel from '@mui/material/FormLabel';
 import Input from '@mui/material/Input';
 import Button from '@mui/material/Button';
 import Link from '@mui/joy/Link';
+import StockSales from '../components/stockSalesChart';
 
 
 
@@ -60,6 +61,7 @@ export default function Login() {
         <Button variant="contained" sx={{ mt: 1 /* margin top */ }}>Log in</Button>
        
       </Sheet>
+      <StockSales/>
     </main>
   );
 }

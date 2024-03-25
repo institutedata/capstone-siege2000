@@ -18,7 +18,8 @@ export default function HomePage() {
                 <Grid item xs={12} md={6}sx={{ minHeight: '50%' }}>
                     <Card>
                     
-                        <Typography variant="h4"  color="text.secondary" gutterBottom>
+                        <Typography variant="h4cd ..
+                        "  color="text.secondary" gutterBottom>
                             Staff Updates
                         </Typography>
                         <img src="https://www.surveylegend.com/wordpress/wp-content/uploads/2021/02/happy-employees.png" alt="Staff" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
