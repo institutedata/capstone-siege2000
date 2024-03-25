@@ -14,7 +14,7 @@ import Paper from '@mui/material/Paper';
 
 
  export default function Posts() {
-    const navigate = useNavigate();
+   // const navigate = useNavigate();
     const [posts, setPosts] = useState([]); // Initialize posts state as an empty array
     const card = (
     <React.Fragment>
@@ -27,10 +27,10 @@ import Paper from '@mui/material/Paper';
                 <Typography variant="n" component="div">
                 {post.content}
                 </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                <Typography sx={{ mb: 1 }} color="text.secondary">
                {post.image}
                 </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                <Typography sx={{ mb: 1 }} color="text.secondary">
                 {moment(post.date).format('DD-MM-YYYY hh:mm:ss')}
                 </Typography>
 

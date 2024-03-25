@@ -17,7 +17,7 @@ import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 
-const pages = ['Notices',  'Specials','Login', 'Stock'];
+const pages = ['Home','Notices',  'Specials','Login', 'Stock'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 export const DarkModeToggle = () => {
   const [isDark, setIsDark] = useState(true);
@@ -134,13 +134,13 @@ function NavBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'primary',
               textDecoration: 'none',
             }}
           >
            
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', color:'secondary' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -154,25 +154,31 @@ function NavBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+          <Menu
+  id="menu-appbar"
+  anchorEl={anchorElNav}
+  anchorOrigin={{
+    vertical: 'bottom',
+    horizontal: 'left',
+  }}
+  keepMounted
+  transformOrigin={{
+    vertical: 'top',
+    horizontal: 'left',
+  }}
+  open={Boolean(anchorElNav)}
+  onClose={handleCloseNavMenu}
+  sx={{
+    display: { xs: 'block', md: 'none' },
+    '& .MuiPaper-root': { // Targeting the root Paper component inside the Menu
+      bgcolor: 'primary.main', // Change this to any color that suits your app's theme
+      color: 'white', // Ensures text color is white, adjust as needed
+    },
+  }}
+>
+   {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseUserMenu}>
+                  <Link to={`/${page}`}>{page}</Link>
                 </MenuItem>
               ))}
             </Menu>

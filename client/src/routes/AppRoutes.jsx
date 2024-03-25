@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
-import HomePage from '../pages/HomePage';
+import Home from '../pages/Home';
 import Notices from '../pages/Notices';
 import Legislation from '../pages/Legislation';
 import Post from '../pages/Post';
@@ -17,7 +17,8 @@ import StockDetails from '../pages/StockDetails';
 export default function AppRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/notices" element={<Notices />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/notices" element={<Post />} />
