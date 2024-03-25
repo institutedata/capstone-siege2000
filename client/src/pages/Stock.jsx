@@ -43,6 +43,7 @@ export default function Stock() {
                         label="Trade Name or PLU" 
                         value={inputValue} 
                         onChange={(e) => setInputValue(e.target.value)}
+                        
                     >
                     </TextField>
                     <Button variant="contained" color="primary" type="submit" > Search</Button>

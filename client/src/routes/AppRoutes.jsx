@@ -29,7 +29,7 @@ export default function AppRoutes() {
             <Route path="/printA5" element={<PrintA5 />} />
             <Route path="/stockitem" element={<StockItem />} />
             <Route path="/stock" element={<Stock />} />
-            <Route path="/stock/:plu" element={<StockDetails />} />
+            <Route path="/stock/:stockID" element={<StockDetails />} />
 
         </Routes>
     )
