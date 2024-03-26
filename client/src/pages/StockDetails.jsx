@@ -69,11 +69,11 @@ const StockDetails = () => {
                   defaultValue={stock.SOH}
                 />
               </FormControl>
-              <Box
-                sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}
-
-              >
-                <StockSalesChart stockID={stock.StockID} />
+              <Box sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}>
+                <StockSalesChart
+                  stockID={stock.StockID}
+                  stockName={stock.TradeName}
+                />
               </Box>
             </Stack>
           </div>

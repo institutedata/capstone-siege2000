@@ -5,7 +5,7 @@ require("dotenv").config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow only this origin to access
+    //origin: //["http://localhost:5173", 'http://192.168.68.50:5173'], // Allow only this origin to access
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"], // Allowable methods
     allowedHeaders: ["Content-Type", "Authorization"], // Custom headers
     credentials: true, // Allow cookies
@@ -33,7 +33,9 @@ app.use("/api/specials", specialsRoutes);
 app.use("/api/special-items", specialItemsRoutes);
 app.use("/api/history", historyRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server is running
-on port ${PORT}.`);
+app.listen(8080, "0.0.0.0", () => {
+  console.log(`Server running on port 8080`);
+  console.log(
+    "Accessible on local network at http://<Your-LAN-IP-Address>:8080"
+  );
 });

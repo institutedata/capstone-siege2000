@@ -10,7 +10,7 @@ async function init() {
 }
 init();
 
-// Assuming each `Stock` can have multiple `SpecialItems`
+// Stock and specias and Special Items relationships. 
 SpecialItems.belongsTo(Stock, { foreignKey: "stockid" }); // If each SpecialItem is associated with one Stock
 Stock.hasMany(SpecialItems, { foreignKey: "stockid" }); // If a Stock can have many SpecialItems
 

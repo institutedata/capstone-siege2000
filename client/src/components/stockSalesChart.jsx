@@ -6,9 +6,11 @@ import { Typography } from "@mui/material";
 import moment from "moment";
 
 import { BarChart } from "@mui/x-charts/BarChart";
+import { Chart } from "react-google-charts";
 
 const StockSalesChart = (props) => {
   const stockID = props.stockID;
+  const tradeName = props.stockName;
 
   console.log("stockId", stockID);
 
@@ -24,9 +26,9 @@ const StockSalesChart = (props) => {
         console.log("History request received");
         const response = await axios.get(apiUrl);
         console.log("I am in USE EFFECT: ", response?.data);
-        setHistoryResults(response?.data); // API Data the array of history
-        setMonths(response.data.map((row) => row.Month));
-        setQtySoldData(response.data?.map((row) => row.QtySold));
+        setHistoryResults(response.data); // API Data the array of history
+        setMonths(response.data.map((row) => moment(row.Month).format("MMM")));
+        setQtySoldData([response.data.map((row) => row.QtySold)]);
       } catch (error) {
         console.error("There was a problem with your fetch operation:", error);
       }
@@ -34,21 +36,44 @@ const StockSalesChart = (props) => {
     fetchStockDetails();
   }, [stockID]);
 
-  // useEffect(() => {
-  //   console.log(`HistoryResults ${historyResults}`);
-  // }, [historyResults])
+  useEffect(() => {
+    console.log(`HistoryResults ${historyResults}`);
+  }, [historyResults]);
 
-  console.log("Months: ", months);
+  // console.log("Months: ", months);
+  // console.log("QtySoldData: ", useState(qtySoldData));
+
+  const data = [months, qtySoldData];
+  console.log("Data: ", data);
+  const chartData = useMemo(() => {
+    // First row for column headers
+    const header = [["Month", "Qty Sold"]];
+    // Data rows
+    //map history results to an array of arrays for Google Charts. Each row is an array of [Month, QtySold] - month data is converted by moment to MMM format.
+    const dataRows = historyResults.map(({ Month, QtySold }) => [
+      moment(Month).format("MMM"),
+      QtySold,
+    ]);
+    // Combine headers and data rows
+    return header.concat(dataRows);
+  }, [historyResults]);
 
   return (
     <React.Fragment>
-      <Typography variant="h6">Stock Sales Chart for {stockID}</Typography>
+      <Typography variant="h6">12 Month History {tradeName}</Typography>
 
-      <BarChart
-        series={[{ data: qtySoldData }]}
+      {/* <BarChart
+        series={[{ data: qtySoldData, label: "Qty Sold" }]}
         height={290}
         xAxis={[{ data: months, scaleType: "band" }]}
         margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+      /> */}
+
+      <Chart
+        chartType="ColumnChart"
+        width="100%"
+        height="200px"
+        data={chartData}
       />
     </React.Fragment>
   );
