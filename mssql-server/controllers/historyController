@@ -5,7 +5,7 @@ const moment = require("moment");
 
 const searchHistory = async ({ stockID }) => {
   const today = moment();
-  const twentyFourMonthsAgo = moment().subtract(24, "months");
+  const twelveMonthsAgo = moment().subtract(12, "months");
 
   const query = {
     where: {},
@@ -22,7 +22,7 @@ const searchHistory = async ({ stockID }) => {
   if (searchConditions.length) {
     query.where = {
       [Op.or]: searchConditions,
-      [Op.and]: { Month: { [Op.between]: [twentyFourMonthsAgo, today] } },
+      [Op.and]: { Month: { [Op.between]: [twelveMonthsAgo, today] } },
     };
   }
   query.order = ["Month"];

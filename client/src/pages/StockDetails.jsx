@@ -26,7 +26,7 @@ const StockDetails = () => {
   return (
     <div className="posts">
       <Typography variant="h5">Stock Details for Stock ID: {stockID}</Typography>
-      {/* Render your stock details here, based on searchResults */}
+      
       <Typography variant="h6">Stock Details</Typography>
       <form>
        

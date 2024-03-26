@@ -1,39 +1,72 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import { Grid, Stack, Typography, FormControl } from '@mui/material';
-import Box from '@mui/material/Box';
-import { blueGrey } from '@mui/material/colors';
+
+import {Typography,  } from '@mui/material';
+
 import moment from 'moment';
-import Button from '@mui/material/Button';
-import {useNavigate} from 'react-router-dom';
-import Paper from '@mui/material/Paper';
+
 import { BarChart } from '@mui/x-charts/BarChart';
 
 
 
 
+const StockSalesChart = (props) => {
+  const stockID = props.stockID;
+  console.log(stockID)
+    const [historyResults, setHistoryResults] = useState([]);
+    const apiUrl = `http://localhost:8080/api/history/search?stockID=${stockID}`;
+    console.log(apiUrl);
 
-export default function StockSalesChart({stockID}) {
+
+    useEffect(() => {
+      
+      const getHistoryDetails = async () => {
+        try {
+          console.log("History request received");
+          const response = await axios.get(apiUrl);
+          console.log(` Data Response ${response.data}`);
+          setHistoryResults(response.data); // API Data the array of history
+          
+        }catch(error){
+          console.error("There was a problem with your fetch operation:", error);
+        }
+
+    };
+    getHistoryDetails()
+    
+  },[stockID]
+    )
+    console.log(`HistoryResults2 ${historyResults }`)
+    const months = historyResults.map((row) => (row.Month))
+    const qtySoldData = historyResults.map((row) => row.QtySold)
+
+    console.log(months) 
+    
+
+
+    
   
+    
     
     return    (
       
       <React.Fragment>
         <Typography variant="h6">Stock Sales Chart for {stockID}</Typography>
+        
+        
+          
       <BarChart
       series={[
-        { data: [35, 44, 24, 34] },
-        { data: [51, 6, 49, 30] },
+        { data:qtySoldData}        
         
       ]}
       height={290}
-      xAxis={[{ data: ['Jan', 'Feb', 'Mar','Apr'], scaleType: 'band' }]}
+      xAxis={[{ data: months, scaleType: 'band' }]}
       margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
     />
+ 
     </React.Fragment>
     
     )
-     }
+    }
+export default StockSalesChart;
