@@ -38,7 +38,7 @@ const StockSalesChart = (props) => {
   //   console.log(`HistoryResults ${historyResults}`);
   // }, [historyResults])
 
-  // console.log("Months: ", months);
+  console.log("Months: ", months);
 
   return (
     <React.Fragment>

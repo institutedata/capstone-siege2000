@@ -3,6 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { FormControl, Stack, TextField, Typography, Box } from "@mui/material";
 import StockSalesChart from "../components/stockSalesChart";
+import Stock from "./Stock";
 
 const StockDetails = () => {
   const { stockID } = useParams();
@@ -22,7 +23,6 @@ const StockDetails = () => {
 
     fetchStockDetails();
   }, [stockID, apiUrl]);
-  
 
   return (
     <div className="posts">
@@ -34,10 +34,6 @@ const StockDetails = () => {
       <form>
         {searchResults.map((stock) => (
           <div key={stock.StockID}>
-            <Typography>PLU: {stock.PLU}</Typography>
-            <Typography>Trade Name: {stock.TradeName}</Typography>
-            <Typography>Real Cost: {stock.RealCost}</Typography>
-            <Typography>Retail: {stock.Retail}</Typography>
             <Stack spacing="2">
               <FormControl sx={{ flexDirection: "row", m: 4, p: 2, border: 1 }}>
                 <TextField
@@ -73,8 +69,11 @@ const StockDetails = () => {
                   defaultValue={stock.SOH}
                 />
               </FormControl>
-              <Box sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}>
-                <StockSalesChart stockID={stockID} />
+              <Box
+                sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}
+
+              >
+                <StockSalesChart stockID={stock.StockID} />
               </Box>
             </Stack>
           </div>
