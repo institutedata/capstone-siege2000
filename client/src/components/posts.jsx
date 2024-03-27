@@ -47,8 +47,7 @@ import Paper from '@mui/material/Paper';
     useEffect(() => {
         axios.get('http://localhost:8081/api/posts')
             .then(response => {
-                // Assuming the structure is { result: 200, data: [/* array of posts */] }
-                // Check if response.data.data exists and is an array before setting posts
+               
                 if (response.data.data && Array.isArray(response.data.data)) {
                     setPosts(response.data.data);
                 } else {

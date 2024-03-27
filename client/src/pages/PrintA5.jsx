@@ -22,13 +22,13 @@ function PrintA5() {
     <div id="toPrint">
      
       {/* Format selected items for A5 printing */}
-      {selectedItems.map((plu) => (
-        <div className="page"key={plu}>
+      {selectedItems.map((stockID) => (
+        <div className="page"key={stockID}>
           {/* Display selected item details */}
           <div className="announce">Special</div>
-        <div className="tradename">{  plu.TradeName}</div>
-        <div className="special">${plu.SpecialPrice.toFixed(2)}</div>
-        <div className="retail">${plu.Retail.toFixed(2)}</div>
+        <div className="tradename">{  stockID.Stock.TradeName}</div>
+        <div className="special">${(stockID.SpecialPrice/100).toFixed(2)}</div>
+        <div className="retail">${(stockID.Stock.Retail/100).toFixed(2)}</div>
         
           
         </div>

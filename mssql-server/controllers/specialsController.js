@@ -25,7 +25,7 @@ const getSpecials = async (res) => {
         {
           model: Models.Stock,
           required: true,
-          attributes: ["plu", "TradeName", "Retail", "RealCost"],
+          attributes: ["StockID", "plu", "TradeName", "Retail", "RealCost"],
         },
         {
           model: Models.Specials,
