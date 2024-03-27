@@ -121,7 +121,9 @@ export default function Specials(props) {
             </TableHead>
             <TableBody>
               {searchResults.map((special) => (
-                <TableRow key={special.Stock.stockID}>
+                <TableRow key={special.Stock.stockID}bg={special.SpecialPrice > special.Stock.Retail ? 'red' : 'white'}
+                
+                >
                   <TableCell padding="checkbox">
                     <Checkbox
                       color="primary"

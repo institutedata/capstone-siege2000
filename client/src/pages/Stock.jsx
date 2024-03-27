@@ -17,7 +17,7 @@ export default function Stock() {
 //check if it is a number or not - if a number then search by PLU, if not then search by trade name
 
         const queryType = isNaN(inputValue) ? 'tradeName' : 'plu';
-        const apiUrl = `http://localhost:8080/api/stock/search?${queryType}=${inputValue}`;
+        const apiUrl = `http://192.168.68.50:8080/api/stock/search?${queryType}=${inputValue}`;
 
         try {
             
