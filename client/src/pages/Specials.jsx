@@ -10,6 +10,7 @@ import {
   TableHead,
   TableRow,
   Checkbox,
+  Typography,
 } from "@mui/material";
 import Sheet from "@mui/material/Card";
 import { useNavigate } from "react-router-dom";
@@ -52,8 +53,12 @@ export default function Specials(props) {
   };
 
   // Function to handle print button click
+  const handleClickToPrintShelf = () => {
+    localStorage.setItem("allSpecials", JSON.stringify(searchResults));
+    window.open("/shelflabels", "_blank");
+  };
 
-  const handlePrintClick = () => {
+  const handlePrintClickA5 = () => {
     localStorage.setItem("selectedSpecials", JSON.stringify(selected));
     window.open("/printA5", "_blank");
   };
@@ -81,7 +86,7 @@ export default function Specials(props) {
         <div>
           <Button
             variant="contained"
-            onClick={() => openInNewTab("./shelflabels")}
+            onClick={handleClickToPrintShelf}
             sx={{ mt: 1 /* margin top */, ml: 2, width: 1 / 4 }}
           >
             Print Shelf
@@ -89,12 +94,18 @@ export default function Specials(props) {
 
           <Button
             variant="contained"
-            onClick={handlePrintClick}
+            onClick={handlePrintClickA5}
             sx={{ mt: 1 /* margin top */, ml: 2, width: 1 / 4 }}
           >
             Print A5 Posters
           </Button>
         </div>
+        <Typography variant="h6">Specials</Typography>
+        <Typography variant="body2">
+          Clicking <b>Print Shelf</b> will print shelf labels for all specials.
+          Clicking <b>Print A5 Posters</b> will print for selected items. Click
+          on the PLU for a stock card to view stock details.
+        </Typography>
 
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
@@ -120,8 +131,15 @@ export default function Specials(props) {
                       onChange={() => handleSelect(special)}
                     />
                   </TableCell>
-                  <TableCell component="th" scope="row">
-                    {special.Stock.StockID}
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    style={{ cursor: "pointer", textDecoration: "underline" }}
+                    onClick={() =>
+                      navigate(`../stock/${special.Stock.StockID}`)
+                    }
+                  >
+                    {special.Stock.plu}
                   </TableCell>
                   <TableCell>{special.Stock.TradeName}</TableCell>
                   <TableCell>
