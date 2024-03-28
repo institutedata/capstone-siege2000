@@ -5,11 +5,16 @@ const Models = require("../models/init-models");
 const getStock = async (res) => {
   try {
     const stock = await Models.Stock.findAll({
-      where: {
-        tradename: {
-          [Op.like]: "%go",
-        },
-      },
+      attributes: [
+        "StockID",
+        "PLU",
+        "TradeName",
+        "RealCost",
+        "Retail",
+        "SOH",
+        "MTD",
+        "PackSize",
+      ],
     });
     res.json(stock);
   } catch (error) {
@@ -40,11 +45,10 @@ const searchStock = async ({ plu, tradeName, stockID }) => {
     });
   }
 
-  console.log({ plu, tradeName, stockID });
+  // console.log({ plu, tradeName, stockID });
   if (searchConditions.length) {
     query.where = {
       [Op.or]: searchConditions,
-      [Op.and]: { StockType: 0 },
     };
   }
   query.order = ["TradeName"];
@@ -62,8 +66,19 @@ const searchStock = async ({ plu, tradeName, stockID }) => {
 
   return Models.Stock.findAll(query);
 };
+const updateStock = (req, res) => {
+  console.log(`Request Body: ${JSON.stringify(req.body)}`);
+  Models.Stock.update(req.body, { where: { StockID: req.params.StockID } })
+    .then(function (data) {
+      res.send({ result: 200, data: data });
+    })
+    .catch((err) => {
+      throw err;
+    });
+};
 
 module.exports = {
   getStock,
   searchStock,
+  updateStock,
 };

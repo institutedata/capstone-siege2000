@@ -106,6 +106,10 @@ export default function Specials(props) {
           Clicking <b>Print A5 Posters</b> will print for selected items. Click
           on the PLU for a stock card to view stock details.
         </Typography>
+        <Typography>
+          Rows highlighted red indicate the special price is higher than the
+          standard retail and something needs to be fixed.
+        </Typography>
 
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
@@ -121,8 +125,14 @@ export default function Specials(props) {
             </TableHead>
             <TableBody>
               {searchResults.map((special) => (
-                <TableRow key={special.Stock.stockID}bg={special.SpecialPrice > special.Stock.Retail ? 'red' : 'white'}
-                
+                <TableRow
+                  key={special.Stock.stockID}
+                  sx={{
+                    bgcolor:
+                      special.SpecialPrice > special.Stock.Retail
+                        ? "#ff7961"
+                        : "white",
+                  }}
                 >
                   <TableCell padding="checkbox">
                     <Checkbox
@@ -131,6 +141,7 @@ export default function Specials(props) {
                         (item) => item.Stock.StockID === special.Stock.StockID
                       )}
                       onChange={() => handleSelect(special)}
+                      sx={{}}
                     />
                   </TableCell>
                   <TableCell
