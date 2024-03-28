@@ -3,4 +3,5 @@ module.exports = {
   specialsController: require("./specialsController"),
   specialItemsController: require("./specialItemsController"),
   historyController: require("./historyController"),
+  orderItemsController: require("./orderItemsController"),
 };

@@ -27,11 +27,13 @@ let stockRoutes = require("./routes/stockRoutes");
 let specialsRoutes = require("./routes/specialsRoutes");
 let specialItemsRoutes = (s = require("./routes/specialItemsRoutes"));
 let historyRoutes = require("./routes/historyRoutes");
+let orderItemsRoutes = require("./routes/orderItemsRoutes");
 console.log("Stock route requested in server.js");
 app.use("/api/stock", stockRoutes);
 app.use("/api/specials", specialsRoutes);
 app.use("/api/special-items", specialItemsRoutes);
 app.use("/api/history", historyRoutes);
+app.use("/api/order-items", orderItemsRoutes);
 
 app.listen(8080, "0.0.0.0", () => {
   console.log(`Server running on port 8080`);
