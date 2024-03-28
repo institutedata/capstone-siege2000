@@ -32,7 +32,7 @@ const searchOrderItems = async (stockID) => {
         },
       ],
     };
-    query.order = [["oiDateDelivered", "ASC"]];
+    query.order = [["oiDateDelivered", "DESC"]];
     query.attributes = [
       "stockID",
       "oiDateDelivered",

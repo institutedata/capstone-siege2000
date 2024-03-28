@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import StockSalesChart from "../components/stockSalesChart";
 import Stock from "./Stock";
+import OrderItemsHistory from "../components/orderItemsHistory";
 
 const StockDetails = () => {
   const { stockID } = useParams();
@@ -136,9 +137,14 @@ const StockDetails = () => {
               <TextField
                 sx={{ m: 0, mt: 2 }}
                 label="Real Cost"
-                defaultValue={(searchResults[0].RealCost/100) }
+                defaultValue={searchResults[0].RealCost / 100}
                 name="RealCost"
-                onChange={handleStockInputChange} // Update state on change
+                onChange={handleStockInputChange}
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">$</InputAdornment>
+                  ),
+                }} // Update state on change
               />
               <TextField
                 sx={{ ml: 1, mt: 2 }}
@@ -184,6 +190,19 @@ const StockDetails = () => {
               }}
             >
               <StockSalesChart
+                stockID={stock.StockID}
+                stockName={stock.TradeName}
+              />
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "flex-start",
+                border: 1,
+              }}
+            >
+              <OrderItemsHistory
                 stockID={stock.StockID}
                 stockName={stock.TradeName}
               />
