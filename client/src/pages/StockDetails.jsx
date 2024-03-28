@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import { FormControl, Stack, TextField, Typography, Box } from "@mui/material";
+import {
+  FormControl,
+  Stack,
+  TextField,
+  Typography,
+  Box,
+  Button,
+  ButtonGroup,
+} from "@mui/material";
 import StockSalesChart from "../components/stockSalesChart";
 import Stock from "./Stock";
 
@@ -47,6 +55,7 @@ const StockDetails = () => {
                   defaultValue={stock.TradeName}
                 />
               </FormControl>
+
               <FormControl
                 sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}
               >
@@ -56,12 +65,12 @@ const StockDetails = () => {
                 <TextField
                   sx={{ m: 0, mt: 2 }}
                   label="Real Cost"
-                  defaultValue={stock.RealCost}
+                  defaultValue={(stock.RealCost / 100.0).toFixed(2)}
                 />
                 <TextField
                   sx={{ ml: 1, mt: 2 }}
                   label="Retail"
-                  defaultValue={stock.Retail}
+                  defaultValue={(stock.Retail / 100.0).toFixed(2)}
                 />
                 <TextField
                   sx={{ ml: 1, mt: 2 }}
@@ -69,7 +78,32 @@ const StockDetails = () => {
                   defaultValue={stock.SOH}
                 />
               </FormControl>
-              <Box sx={{ flexDirection: "row", m: 4, border: 1, mt: 2, p: 1 }}>
+
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "flex-start",
+                 
+                  
+                 
+                   
+                }}
+              >
+                <Button variant="contained" sx={{ ml: 1, mr: 1, mt:1, mb:1 }}>
+                  Update
+                </Button>
+                <Button variant="contained" sx={{ ml: 1, mr: 1, mt:1, mb:1 }}>Cancel</Button>
+              </Box>
+
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "flex-start",
+                  border: 1,
+                }}
+              >
                 <StockSalesChart
                   stockID={stock.StockID}
                   stockName={stock.TradeName}

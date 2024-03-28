@@ -60,7 +60,7 @@ const StockSalesChart = (props) => {
 
   return (
     <React.Fragment>
-      <Typography variant="h6">12 Month History {tradeName}</Typography>
+     
 
       {/* <BarChart
         series={[{ data: qtySoldData, label: "Qty Sold" }]}
@@ -74,6 +74,17 @@ const StockSalesChart = (props) => {
         width="100%"
         height="200px"
         data={chartData}
+        options={{
+          title: "12 Month History",
+          chartArea: { width: "80%" },
+          hAxis: {
+            title: "Month",
+            minValue: 0,
+          },
+          vAxis: {
+            title: "Qty Sold",
+          },
+        }}
       />
     </React.Fragment>
   );
