@@ -27,6 +27,21 @@ Stock.init(
       allowNull: true,
       defaultValue: 0, // Assuming a default value of 0 as per your table
     },
+    RealCost: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0, // Assuming a default value of 0 as per your table
+    },
+    Retail: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0, // Assuming a default value of 0 as per your table
+    },
+    SOH: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0, // Assuming a default value of 0 as per your table
+    },
   },
   {
     sequelize: sequelizeInstance,

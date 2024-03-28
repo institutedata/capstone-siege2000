@@ -1,0 +1,138 @@
+{
+  "name": "Capstone_tests",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "Get Stock",
+      "seq": 1,
+      "request": {
+        "url": "http://localhost:8080/api/stock",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "Limit Stock Search",
+      "seq": 2,
+      "request": {
+        "url": "//localhost:8080/api/stock/search?stockID=3",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "stockID",
+            "value": "3",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "Get History",
+      "seq": 3,
+      "request": {
+        "url": "http://localhost:8080/api/specials",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "Update Stock",
+      "seq": 4,
+      "request": {
+        "url": "http://localhost:8080/api/stock/3",
+        "method": "PUT",
+        "headers": [],
+        "body": {
+          "mode": "json",
+          "json": "{\n  \"TradeName\":\"A changed man\"\n}",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "folder",
+      "name": "MSSQL-BrunoTests"
+    }
+  ],
+  "environments": []
+}
