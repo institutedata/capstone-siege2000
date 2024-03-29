@@ -12,7 +12,7 @@ const getPosts = (res) => {
       console.log(err);
       res.send({ result: 500, error: err.message });
     });
-};  
+};
 // uses JSON from request body to create new post in DB
 const createPost = (data, res) => {
   Models.Post.create(data)
@@ -46,10 +46,21 @@ const deletePost = (req, res) => {
       res.send({ result: 500, error: err.message });
     });
 };
+const getPost = (req, res) => {
+  Models.Post.findByPk(req.params.id)
+    .then((data) => {
+      res.send({ result: 200, data: data });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.send({ result: 500, error: err.message });
+    });
+};
 
 module.exports = {
   getPosts,
   createPost,
   updatePost,
   deletePost,
+  getPost,
 };
