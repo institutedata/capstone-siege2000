@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import Link from "@mui/material/Link";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { Grid, Typography } from "@mui/material";
@@ -10,12 +10,11 @@ import moment from "moment";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import Paper from "@mui/material/Paper";
+import { EditPostButton } from "./addPostButton";
 
 export default function Posts() {
   // const navigate = useNavigate();
   const [posts, setPosts] = useState([]); // Initialize posts state as an empty array
-
-
 
   const card = (
     <React.Fragment>
@@ -52,7 +51,19 @@ export default function Posts() {
               {moment(post.date).format("DD-MM-YYYY hh:mm:ss")}
             </Typography>
             <Typography sx={{ mb: 1 }} color="text.secondary">
-              {post.link}
+              <Link href={post.link} target="_blank" rel="noopener noreferrer">
+                Link
+              </Link>
+            </Typography>
+            <Typography sx={{ mb: 1 }} color="text.secondary">
+              <Link
+                href={`EditNotice/${post.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                Edit Post
+              </Link>
             </Typography>
           </CardContent>
         </Card>
@@ -66,6 +77,7 @@ export default function Posts() {
       .then((response) => {
         if (response.data.data && Array.isArray(response.data.data)) {
           setPosts(response.data.data);
+          console.log("Posts data: ", response.data.data);
         } else {
           console.error(
             "Received data is not in expected format:",
