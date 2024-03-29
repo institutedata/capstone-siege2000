@@ -6,64 +6,48 @@ import {
   Stack,
   TextField,
   Typography,
-  Box,
   Button,
   ButtonGroup,
-  InputAdornment,
 } from "@mui/material";
-import StockSalesChart from "../components/stockSalesChart";
-import Stock from "./Stock";
-import OrderItemsHistory from "../components/orderItemsHistory";
 
 const PostDetails = () => {
   const { postID } = useParams();
-  const [searchResults, setSearchResults] = useState([]);
-  const apiUrl = `http://localhost:8081/api/posts/2`;
+  const [updatedPost, setUpdatedPost] = useState({
+    title: "Test Title",
+    content: "",
+    image: "",
+    date: "",
+    link: "",
+  });
 
   useEffect(() => {
     const fetchPostDetails = async () => {
       try {
+        const apiUrl = `http://localhost:8081/api/posts/${postID}`;
         const response = await axios.get(apiUrl);
-        //console.log(response.data);
-        setSearchResults(response.data); // Assuming the API returns an array of objects
+        const postData = response.data.data;
+        setUpdatedPost({
+          title: postData.title || "",
+          content: postData.content || "",
+          image: postData.image || "",
+          date: postData.date || "",
+          link: postData.link || "",
+        });
       } catch (error) {
         console.error("There was a problem with your fetch operation:", error);
       }
     };
 
     fetchPostDetails();
-  }, [postID, apiUrl]);
-  //this section of code handles the state of TextFields. When a TextField is updated, the state is updated. This will be used to save the updated post fields to the database when the save button is clicked.
-  const [updatedPost, setUpdatedPost] = useState({
-    title: "",
-    content: "",
-    image: "",
-    date: "",
-    link: "",
-  });
-  useEffect(() => {
-    if (searchResults && searchResults.length > 0) {
-      const post = searchResults[0]; // Assuming you're interested in the first result
-      setUpdatedPost({
-        title: post.title || "",
-        content: post.content || "",
-        image: post.image,
-        date: post.date,
-        link: post.link || "",
-      });
-    }
-  }, [searchResults]);
+  }, [postID]);
 
   const handlePostInputChange = (e) => {
+    console.log(e.target.name, e.target.value);
+    console.log(updatedPost);
     const { name, value } = e.target;
-    let formattedValue = value;
-    //check if the field is numeric and format it as a number
-    if (name === "date") {
-      formattedValue = new Date(value).toISOString();
-    }
     setUpdatedPost((prevState) => ({
       ...prevState,
-      [name]: formattedValue,
+      [name]: value,
     }));
   };
 
@@ -72,56 +56,59 @@ const PostDetails = () => {
       await axios.put(`http://localhost:8081/api/posts/${postID}`, updatedPost);
       alert("Post updated successfully!");
     } catch (error) {
-      console.error("There was a problem with your fetch operation:", error);
+      console.error("There was a problem with your operation:", error);
     }
   };
-
   return (
     <React.Fragment>
       <Typography variant="h4" component="h2" gutterBottom>
         Post Details
       </Typography>
       <FormControl>
-        {searchResults.map((post) => (
-          <Stack spacing={2} key={post.id}>
-            <TextField
-              id="title"
-              label="Title"
-              value={updatedPost.title}
-              onChange={handlePostInputChange}
-            />
-            <TextField
-              id="content"
-              label="Content"
-              multiline
-              rows={10}
-              value={updatedPost.content}
-              onChange={handlePostInputChange}
-            />
-            <TextField
-              id="image"
-              label="Image"
-              value={updatedPost.image}
-              onChange={handlePostInputChange}
-            />
-            <TextField
-              id="date"
-              label="Date"
-              type="date"
-              value={updatedPost.date}
-              onChange={handlePostInputChange}
-            />
-            <TextField
-              id="link"
-              label="Link"
-              value={updatedPost.link}
-              onChange={handlePostInputChange}
-            />
-            <ButtonGroup>
-              <Button onClick={handleSavePost}>Save</Button>
-            </ButtonGroup>
-          </Stack>
-        ))}
+        <Stack spacing={2}>
+          <TextField
+            id="title"
+            label="Title"
+            name="title" // Specify name attribute for identifying the field in handlePostInputChange
+            value={updatedPost.title}
+            onChange={handlePostInputChange}
+          />
+          <TextField
+            id="content"
+            label="Content"
+            name="content" // Specify name attribute for identifying the field in handlePostInputChange
+            multiline
+            rows={10}
+            value={updatedPost.content}
+            onChange={handlePostInputChange}
+          />
+          <TextField
+            id="image"
+            label="Image"
+            name="image" // Specify name attribute for identifying the field in handlePostInputChange
+            value={updatedPost.image}
+            onChange={handlePostInputChange}
+          />
+          <TextField
+            id="date"
+            label="Date"
+            name="date" // Specify name attribute for identifying the field in handlePostInputChange
+            type="text"
+            // Ensure the date format is correct for the date picker
+            value={updatedPost.date.slice(0, 10)}
+            onChange={handlePostInputChange}
+          />
+          <TextField
+            id="link"
+            label="Link"
+            name="link" // Specify name attribute for identifying the field in handlePostInputChange
+            value={updatedPost.link}
+            onChange={handlePostInputChange}
+          />
+          <ButtonGroup>
+            <Button onClick={handleSavePost}>Save</Button>
+          </ButtonGroup>
+        </Stack>
       </FormControl>
     </React.Fragment>
   );

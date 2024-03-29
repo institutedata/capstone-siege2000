@@ -18,7 +18,7 @@ import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 
-const pages = ["Specials", "Stock", "Login"];
+const pages = ["Notices","Specials", "Stock", "Login"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 export const DarkModeToggle = () => {
   const [isDark, setIsDark] = useState(true);
@@ -68,7 +68,7 @@ function NavBar() {
             variant="h6"
             noWrap
             component="a"
-            href="./"
+            href="../home"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },

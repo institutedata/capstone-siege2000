@@ -32,7 +32,7 @@ export default function AppRoutes() {
       <Route path="/stockitem" element={<StockItem />} />
       <Route path="/stock" element={<Stock />} />
       <Route path="/stock/:stockID" element={<StockDetails />} />
-      <Route path="/editnotice/:id" element={<EditNotice />} />
+      <Route path="/editnotice/:postID" element={<EditNotice />} />
     </Routes>
   );
 }

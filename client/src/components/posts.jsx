@@ -57,10 +57,9 @@ export default function Posts() {
             </Typography>
             <Typography sx={{ mb: 1 }} color="text.secondary">
               <Link
-                href={`EditNotice/${post.id}`}
+                href={`../editnotice/${post.id}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 Edit Post
               </Link>
