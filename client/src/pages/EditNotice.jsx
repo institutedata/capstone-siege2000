@@ -8,6 +8,7 @@ import {
   Typography,
   Button,
   ButtonGroup,
+  Box,
 } from "@mui/material";
 
 const PostDetails = () => {
@@ -60,11 +61,12 @@ const PostDetails = () => {
     }
   };
   return (
-    <React.Fragment>
+    <div className="posts" width="80%">
+      <Box sx={{ flexDirection: "row", m: 4, p: 2, border: 1 }}>
       <Typography variant="h4" component="h2" gutterBottom>
         Post Details
       </Typography>
-      <FormControl>
+      
         <Stack spacing={2}>
           <TextField
             id="title"
@@ -109,8 +111,9 @@ const PostDetails = () => {
             <Button onClick={handleSavePost}>Save</Button>
           </ButtonGroup>
         </Stack>
-      </FormControl>
-    </React.Fragment>
+        </Box>
+      
+    </div>
   );
 };
 
