@@ -22,7 +22,7 @@ export default function Posts() {
         <Card
           key={post.id}
           variant="outlined"
-          sx={{ width: 1 / 3, flexDirection: "row" }}
+          sx={{ width: 1 / 4, flexDirection: "row" }}
         >
           <CardContent>
             <Typography
@@ -37,7 +37,7 @@ export default function Posts() {
               component="img"
               sx={{
                 height: "auto",
-                width: "100%",
+                width: "60%",
                 mb: 1, // Margin bottom
               }}
               src={post.image}
@@ -51,16 +51,21 @@ export default function Posts() {
               {moment(post.date).format("DD-MM-YYYY hh:mm:ss")}
             </Typography>
             <Typography sx={{ mb: 1 }} color="text.secondary">
-              <Link href={post.link} target="_blank" rel="noopener noreferrer">
-                Link
-              </Link>
+              {post.link ? (
+                <Link
+                  href={post.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Link
+                </Link>
+              ) : (
+                "No link provided."
+              )}
             </Typography>
+
             <Typography sx={{ mb: 1 }} color="text.secondary">
-              <Link
-                href={`../editnotice/${post.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href={`../editnotice/${post.id}`} rel="noopener noreferrer">
                 Edit Post
               </Link>
             </Typography>
