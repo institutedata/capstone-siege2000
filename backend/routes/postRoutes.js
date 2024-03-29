@@ -5,6 +5,9 @@ const Controllers = require("../controllers"); //index.js
 router.get("/", (req, res) => {
   Controllers.postController.getPosts(res);
 });
+router.get("/:id", (req, res) => {
+  Controllers.postController.getPost(req, res);
+});
 router.post("/create", (req, res) => {
   Controllers.postController.createPost(req.body, res);
 });
