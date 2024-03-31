@@ -8,9 +8,9 @@ MINI-PROJECT 2 - Project objectives
         - newest up first
     (b)Specials shelf labels 
         - import from JSON file
-        - allow customisation - font, section sizes
-    (c) Basic stock updates - SOH, Shrinkage
-    (d) View basic stock information - SOH, shrinkage
+        
+    (c) Basic stock updates - SOH, Shrinkage, Retail Price, TradeName
+    (d) View basic stock information - SOH, shrinkage, previous months sales
 
 CAPSTONE
 2. Link to MS SQL database for back end
