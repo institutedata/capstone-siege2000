@@ -1,0 +1,50 @@
+---
+title: Stock 
+---
+erDiagram
+    Special ||--|{ SpecialItems : has
+    Special {
+        integer SpecialID
+        string specialName
+        date startDate
+        date finishDate
+    }
+    SpecialItems {
+        integer SpecialItemID
+        integer stockID
+        integer specialPrice
+        iteger specialID
+
+    }
+    SpecialItems }o --||  Stock : belongs-to
+    Stock {
+        integer stockID
+        integer PLU
+        string TradeName
+        integer realCost
+        integer retail
+
+
+    }
+   
+   Stock || --o{OrderItems : belongs-to
+    OrderItems {
+        integer orderItemID
+        integer orderItemID
+        integer stockID
+        integer qtyOrdered
+        integer qtyDelivered
+        integer realCost
+        integer retailPrice
+
+        
+    }
+Order || --o{OrderItems : has
+Order{
+    integer orderID
+    integer supplierID
+    string invoiceNumber
+    number orderNumber
+    date orderDate
+}  
+

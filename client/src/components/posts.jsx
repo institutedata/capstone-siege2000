@@ -104,6 +104,7 @@ export default function Posts() {
         columns={{ xs: 4, sm: 6, md: 6 }}
         sx={{ flexWrap: "wrap", flexDirection: "row" }}
       >
+// [MermaidChart: 70de229d-4397-44f0-9ec5-aa84c389d048]
         <Box
           sx={{
             display: "flex",
