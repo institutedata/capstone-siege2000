@@ -158,6 +158,26 @@ const StockDetails = () => {
                 onChange={handleStockInputChange} // Update state on change
                 name="Retail"
               />
+              <Box sx={{ width: "15%" }}>
+                {/* Display GP and Markup */}
+                <Typography variant="h10" sx={{ m: 0 }}>
+                  GP{" "}
+                  {(
+                    ((updatedStock.Retail - updatedStock.RealCost) /
+                      searchResults[0].Retail) *
+                    100
+                  ).toFixed(2)}
+                  % <br />
+                </Typography>
+                <Typography variant="h10" sx={{ m: 0 }}>
+                  M/U{" "}
+                  {(
+                    (updatedStock.Retail / updatedStock.RealCost) *
+                    100
+                  ).toFixed(2)}
+                  %
+                </Typography>
+              </Box>
               <TextField
                 sx={{ ml: 1, mt: 2 }}
                 label="SOH"

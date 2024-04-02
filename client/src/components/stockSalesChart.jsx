@@ -2,6 +2,8 @@ import React, { useEffect, useState, useMemo } from "react";
 import axios from "axios";
 import moment from "moment";
 import { Chart } from "react-google-charts";
+import { Grid, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
 const StockSalesChart = (props) => {
   const stockID = props.stockID;
   // const tradeName = props.stockName; - not required for this component
@@ -51,6 +53,11 @@ const StockSalesChart = (props) => {
     return header.concat(dataRows);
   }, [historyResults]);
 
+  //calculate total sold
+  const totalSold = useMemo(() => {
+    return historyResults.reduce((acc, { QtySold }) => acc + QtySold, 0);
+  }, [historyResults]);
+
   return (
     <React.Fragment>
       {/* <BarChart
@@ -59,24 +66,33 @@ const StockSalesChart = (props) => {
         xAxis={[{ data: months, scaleType: "band" }]}
         margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
       /> */}
-
-      <Chart
-        chartType="ColumnChart"
-        width="100%"
-        height="200px"
-        data={chartData}
-        options={{
-          title: "12 Month History",
-          chartArea: { width: "80%" },
-          hAxis: {
-            title: "Month",
-            minValue: 0,
-          },
-          vAxis: {
-            title: "Qty Sold",
-          },
-        }}
-      />
+      <Grid container width={"80%"}>
+        <Chart
+          chartType="ColumnChart"
+          width="100%"
+          height="200px"
+          data={chartData}
+          options={{
+            title: "12 Month History",
+            chartArea: { width: "80%" },
+            hAxis: {
+              title: "Month",
+              minValue: 0,
+            },
+            vAxis: {
+              title: "Qty Sold",
+            },
+          }}
+        />
+        <Grid item xs={12}>
+          <Box>
+            {/* Display the average monthly sold   */}
+            <Typography variant="h6" component="h6" flex={"row"}>
+              Average Sold: {(totalSold / 12).toFixed(2)} - per month
+            </Typography>
+          </Box>
+        </Grid>
+      </Grid>
     </React.Fragment>
   );
 };

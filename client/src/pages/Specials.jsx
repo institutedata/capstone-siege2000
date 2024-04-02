@@ -11,6 +11,7 @@ import {
   TableRow,
   Checkbox,
   Typography,
+  TextField,
 } from "@mui/material";
 import Sheet from "@mui/material/Card";
 import { useNavigate } from "react-router-dom";
@@ -20,6 +21,9 @@ export default function Specials(props) {
   const [searchResults, setSearchResults] = useState([]);
   const navigate = useNavigate();
   const [selected, setSelected] = useState([]);
+
+  //to filter text
+  const [filterText, setFilterText] = useState("");
 
   // Function to handle the search
   useEffect(() => {
@@ -52,6 +56,12 @@ export default function Specials(props) {
     setSelected(newSelected);
   };
 
+  //filter specials by trade name
+
+  const filteredResults = searchResults.filter((special) =>
+    special.Stock.TradeName.toLowerCase().includes(filterText.toLowerCase())
+  );
+
   // Function to handle print button click
   const handleClickToPrintShelf = () => {
     localStorage.setItem("allSpecials", JSON.stringify(searchResults));
@@ -83,6 +93,13 @@ export default function Specials(props) {
         }}
         variant="outlined"
       >
+        <TextField
+          label="Filter by Trade Name"
+          variant="outlined"
+          value={filterText}
+          onChange={(e) => setFilterText(e.target.value)}
+          sx={{ mb: 2 }} // Add some bottom margin
+        />
         <div>
           <Button
             variant="contained"
@@ -124,7 +141,7 @@ export default function Specials(props) {
               </TableRow>
             </TableHead>
             <TableBody>
-              {searchResults.map((special) => (
+              {filteredResults.map((special) => (
                 <TableRow
                   key={special.Stock.stockID}
                   sx={{

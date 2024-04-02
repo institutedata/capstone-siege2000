@@ -22,7 +22,7 @@ export default function Posts() {
         <Card
           key={post.id}
           variant="outlined"
-          sx={{ width: 1 / 4, flexDirection: "row" }}
+          sx={{ minWidth: "400", width: 1 / 3, flexDirection: "row" }}
         >
           <CardContent>
             <Typography
@@ -104,20 +104,18 @@ export default function Posts() {
         columns={{ xs: 4, sm: 6, md: 6 }}
         sx={{ flexWrap: "wrap", flexDirection: "row" }}
       >
-// [MermaidChart: 70de229d-4397-44f0-9ec5-aa84c389d048]
         <Box
           sx={{
             display: "flex",
-            flexDirection: "row", // Change from 'column' to 'row'
-            flexWrap: "wrap", // Allow items to wrap
-            gap: 2, // Add some space between cards
-            p: 1,
-            m: 1,
-            bgcolor: "background.paper",
-            width: 1,
+            flexWrap: "wrap", // Enable wrapping
+            justifyContent: "space-around", // Adjust spacing and alignment as needed
+            "& > :not(style)": {
+              // Apply styles to direct children that are not <style> elements
+              m: 1, // Margin around each card for spacing
+              minWidth: "400px", // Minimum width for each card
+              width: "calc(33% - 8px)", // Set width to 1/3 of container minus margin
+            },
           }}
-          xs={12}
-          sm={12}
         >
           {card}
         </Box>
