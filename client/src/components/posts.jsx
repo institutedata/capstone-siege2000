@@ -108,7 +108,7 @@ export default function Posts() {
           sx={{
             display: "flex",
             flexWrap: "wrap", // Enable wrapping
-            justifyContent: "space-around", // Adjust spacing and alignment as needed
+            justifyContent: "space-around left", // Adjust spacing and alignment as needed
             "& > :not(style)": {
               // Apply styles to direct children that are not <style> elements
               m: 1, // Margin around each card for spacing
