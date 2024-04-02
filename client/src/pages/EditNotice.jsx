@@ -80,7 +80,7 @@ const PostDetails = () => {
   };
   const handleDeletePost = async () => {
     const isConfirmed = window.confirm(
-      "Are you sure you want to delete this post?"
+      "‼️ Are you sure you want to delete this post? ‼️"
     );
 
     // If the user clicks "Yes", proceed with the delete operation
