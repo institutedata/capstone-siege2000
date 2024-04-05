@@ -84,6 +84,7 @@ const StockDetails = () => {
       .then((response) => {
         console.log(response.data);
       })
+      .then(() => window.history.back())
       .catch((error) => {
         console.error("There was an error updating the stock: ", error);
       });
@@ -92,7 +93,7 @@ const StockDetails = () => {
   return (
     <div className="posts" width="80%">
       <Typography variant="h5">
-        Stock Details for Stock ID: {stockID}
+        Stock Details for {updatedStock.TradeName}
       </Typography>
 
       {searchResults.map((stock) => (
@@ -163,7 +164,7 @@ const StockDetails = () => {
                 <Typography variant="h10" sx={{ m: 0 }}>
                   GP{" "}
                   {(
-                    ((updatedStock.Retail - updatedStock.RealCost) /
+                    ((updatedStock.Retail - updatedStock.RealCost * 1.15) /
                       searchResults[0].Retail) *
                     100
                   ).toFixed(2)}
@@ -172,7 +173,8 @@ const StockDetails = () => {
                 <Typography variant="h10" sx={{ m: 0 }}>
                   M/U{" "}
                   {(
-                    (updatedStock.Retail / updatedStock.RealCost) *
+                    ((updatedStock.Retail - updatedStock.RealCost * 1.15) /
+                      (updatedStock.RealCost * 1.15)) *
                     100
                   ).toFixed(2)}
                   %
