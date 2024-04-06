@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/HQdlhcoz)
 
 <div align="center">
 
@@ -23,6 +24,19 @@ the software development life cycle.
 - Presentation and Demo of 5-10 minutes
 - Project documentation (template provided in slack/email)
 
+#### Github Repository
+-Includes branches for backend development
+-2 releases
+-messages on commits 
+
+#### Presentation
+-Powerpoint presentation
+
+#### Documentation
+-code is documented
+-mermaid charts attached
+
+
 ### Scope
 Your project must make use of the following:
 - Client-Server architecture (or Client - Server - other services)
@@ -30,6 +44,11 @@ Your project must make use of the following:
 - Database for CRUD Operations
 - User Interface for Data Submission
 
+#### CLient-Server architecture
+Client uses react router for routing and web page delivery. Attaches to 
+backend servers using API's
+
+Two backen servers
 <br>
 
 

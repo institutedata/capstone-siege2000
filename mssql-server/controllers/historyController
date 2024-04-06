@@ -1,0 +1,42 @@
+"use strict";
+const { Op } = require("sequelize");
+const Models = require("../models/init-models");
+const moment = require("moment");
+
+const searchHistory = async ({ stockID }) => {
+  const today = moment();
+  const twelveMonthsAgo = moment().subtract(12, "months");
+
+  const query = {
+    where: {},
+  };
+
+  // Construct query conditions based on provided search parameters
+  const searchConditions = [];
+
+  if (stockID) {
+    searchConditions.push({ StockID: Number(stockID) });
+  }
+
+  console.log({ stockID });
+  if (searchConditions.length) {
+    query.where = {
+      [Op.or]: searchConditions,
+      [Op.and]: { Month: { [Op.between]: [twelveMonthsAgo, today] } },
+    };
+  }
+  query.order = ["Month"];
+  query.attributes = [
+    "StockID",
+    "QtySold",
+    "TotalRealCost",
+    "ValueSold",
+    "Month",
+  ];
+
+  return Models.History.findAll(query);
+};
+
+module.exports = {
+  searchHistory,
+};

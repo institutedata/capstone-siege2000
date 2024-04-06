@@ -1,0 +1,22 @@
+meta {
+  name: Get Posts
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8081/api/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+        "id": 2,
+        "date": "2024-03-29T00:32:28.000Z",
+        "title": "test",
+        "content": "test",
+        "image": "test",
+        "link": "https://schedule.pharmac.govt.nz/ScheduleOnline.php"
+  }
+}

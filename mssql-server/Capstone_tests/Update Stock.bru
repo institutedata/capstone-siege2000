@@ -1,0 +1,17 @@
+meta {
+  name: Update Stock
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/api/stock/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "TradeName":"A changed man"
+  }
+}
